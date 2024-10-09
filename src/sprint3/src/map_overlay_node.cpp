@@ -1,15 +1,26 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
-
+/**
+ * @brief Main function to overlay two maps with transparency.
+ * 
+ * This program reads two map images, one representing a ground truth map and 
+ * the other a SLAM-generated map. It overlays the SLAM map onto the ground 
+ * truth map with a specified shift and transparency, then displays the result.
+ * 
+ * @return int Returns 0 if the program executes successfully, otherwise returns -1.
+ */
 int main() {
     // Load images
     cv::Mat img1 = cv::imread("/home/student/ros2_ws/sprint3_v1_carto_map.pgm", cv::IMREAD_UNCHANGED);
     cv::Mat img2 = cv::imread("/home/student/robot_ws/map.pgm", cv::IMREAD_UNCHANGED);
     
+    // Display the ground truth map
     cv::imshow("Ground truth map", img2);
     
+    // Display the SLAM map
     cv::imshow("SLAM map", img1);
-
+    
+    // Check if images are loaded successfully
     if (img1.empty() || img2.empty()) {
         std::cerr << "Could not open or find the images!" << std::endl;
         return -1;
@@ -17,7 +28,7 @@ int main() {
 
     // Calculate new output image size (larger to accommodate shift)
     int outputWidth = std::max(img1.cols, img2.cols) + 200;  // Add 100 pixels for shift space
-    int outputHeight = std::max(img1.rows, img2.rows) + 20;
+    int outputHeight = std::max(img1.rows, img2.rows) + 20;  // Add 20 pixels for shift space
 
     // Create an output image initialized to zero (black)
     cv::Mat output = cv::Mat::zeros(outputHeight, outputWidth, img1.type());
@@ -26,9 +37,9 @@ int main() {
     int offsetX1 = (outputWidth - img1.cols) / 2; // Center img1 horizontally
     int offsetY1 = (outputHeight - img1.rows) / 2; // Center img1 vertically
 
-    // Shift img2 to the left by 50 pixels
-    int offsetX2 = (outputWidth - img2.cols) / 2 - 40; // Shift img2 left by 50 pixels
-    int offsetY2 = (outputHeight - img2.rows) / 2 + 5; // Center img2 vertically
+    // Shift img2 to the left by 40 pixels and up by 5
+    int offsetX2 = (outputWidth - img2.cols) / 2 - 40; 
+    int offsetY2 = (outputHeight - img2.rows) / 2 + 5; 
 
     // Ensure img2 stays within bounds
     offsetX2 = std::max(0, offsetX2);
