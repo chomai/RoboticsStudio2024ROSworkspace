@@ -1,0 +1,32 @@
+[0.034s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8
+[0.270s] [ 50%] Built target map_overlay_node
+[0.324s] [35m[1mConsolidate compiler generated dependencies of target cylinder_detection_node[0m
+[0.399s] [ 75%] [32mBuilding CXX object CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o[0m
+[8.228s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::publishCylinderMarker(float, float, float)[m[K’:
+[8.228s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:82:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[8.228s]    82 |     void publishCylinderMarker(float x, float y, [01;35m[Kfloat z[m[K)
+[8.228s]       |                                                  [01;35m[K~~~~~~^[m[K
+[31.305s] [100%] [32m[1mLinking CXX executable cylinder_detection_node[0m
+[32.767s] [100%] Built target cylinder_detection_node
+[32.814s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8
+[32.971s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/sprint3
+[32.988s] -- Install configuration: "Release"
+[32.989s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/lib/sprint3/map_overlay_node
+[32.989s] -- Installing: /home/student/ros2_ws/install/sprint3/lib/sprint3/cylinder_detection_node
+[32.995s] -- Set runtime path of "/home/student/ros2_ws/install/sprint3/lib/sprint3/cylinder_detection_node" to ""
+[32.995s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/package_run_dependencies/sprint3
+[32.996s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/parent_prefix_path/sprint3
+[32.996s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/ament_prefix_path.sh
+[32.996s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/ament_prefix_path.dsv
+[32.996s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/path.sh
+[32.996s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/path.dsv
+[32.996s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.bash
+[32.996s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.sh
+[32.996s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.zsh
+[32.996s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.dsv
+[32.996s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/package.dsv
+[32.996s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/packages/sprint3
+[32.997s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/cmake/sprint3Config.cmake
+[32.997s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/cmake/sprint3Config-version.cmake
+[32.997s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/package.xml
+[33.022s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/sprint3

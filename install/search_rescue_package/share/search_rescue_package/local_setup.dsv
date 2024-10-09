@@ -1,0 +1,2 @@
+source;share/search_rescue_package/environment/ament_prefix_path.sh
+source;share/search_rescue_package/environment/path.sh

@@ -1,0 +1,40 @@
+[0.050s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8
+[0.278s] [ 50%] Built target map_overlay_node
+[0.371s] [35m[1mConsolidate compiler generated dependencies of target cylinder_detection_node[0m
+[0.433s] [ 75%] [32mBuilding CXX object CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o[0m
+[6.812s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kbool CylinderDetectionNode::isObstacleInMap(float, float)[m[K’:
+[6.813s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:49:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.813s]    49 |         if (cell_x >= 0 && [01;35m[Kcell_x < map_data_.info.width[m[K && cell_y >= 0 && cell_y < map_data_.info.height) {
+[6.816s]       |                            [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.816s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:49:83:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.816s]    49 | 0 && cell_x < map_data_.info.width && cell_y >= 0 && [01;35m[Kcell_y < map_data_.info.height[m[K) {
+[6.816s]       |                                                      [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.816s] 
+[6.816s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::updateMapWithCylinder(float, float)[m[K’:
+[6.817s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:63:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[6.817s]    63 |                 if (index >= 0 && [01;35m[Kindex < map_data_.data.size()[m[K) {
+[6.817s]       |                                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[36.227s] [100%] [32m[1mLinking CXX executable cylinder_detection_node[0m
+[37.024s] [100%] Built target cylinder_detection_node
+[37.062s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8
+[37.261s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/sprint3
+[37.279s] -- Install configuration: "Release"
+[37.279s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/lib/sprint3/map_overlay_node
+[37.282s] -- Installing: /home/student/ros2_ws/install/sprint3/lib/sprint3/cylinder_detection_node
+[37.292s] -- Set runtime path of "/home/student/ros2_ws/install/sprint3/lib/sprint3/cylinder_detection_node" to ""
+[37.297s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/package_run_dependencies/sprint3
+[37.297s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/parent_prefix_path/sprint3
+[37.297s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/ament_prefix_path.sh
+[37.297s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/ament_prefix_path.dsv
+[37.298s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/path.sh
+[37.298s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/path.dsv
+[37.298s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.bash
+[37.298s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.sh
+[37.298s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.zsh
+[37.298s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.dsv
+[37.298s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/package.dsv
+[37.298s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/packages/sprint3
+[37.299s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/cmake/sprint3Config.cmake
+[37.299s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/cmake/sprint3Config-version.cmake
+[37.299s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/package.xml
+[37.303s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/sprint3

@@ -1,0 +1,110 @@
+[0.044s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3
+[0.111s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.394s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.447s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.452s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.465s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.516s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.598s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.600s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.918s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.024s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.099s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.138s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[1.145s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.303s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[1.353s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[1.358s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.361s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.364s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[1.426s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.482s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.484s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.489s] -- Searching for dependencies of ignition-math6
+[1.492s] -- Looking for OGRE...
+[1.503s] -- Found Ogre Ghadamon (1.9.0)
+[1.503s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.589s] -- Looking for OGRE_Paging...
+[1.590s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.590s] -- Looking for OGRE_Terrain...
+[1.590s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.591s] -- Looking for OGRE_Property...
+[1.591s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.591s] -- Looking for OGRE_RTShaderSystem...
+[1.591s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.591s] -- Looking for OGRE_Volume...
+[1.592s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.592s] -- Looking for OGRE_Overlay...
+[1.592s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.839s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.839s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.840s] -- Searching for dependencies of ignition-transport8
+[1.873s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.892s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.901s] -- Checking for module 'libzmq >= 4'
+[1.925s] --   Found libzmq , version 4.3.4
+[2.001s] -- Checking for module 'uuid'
+[2.022s] --   Found uuid, version 2.37.2
+[2.077s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.077s] -- Searching for dependencies of ignition-msgs5
+[2.105s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.120s] -- Checking for module 'tinyxml2'
+[2.140s] --   Found tinyxml2, version 9.0.0
+[2.261s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.261s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.261s] -- Searching for dependencies of ignition-common3
+[2.262s] -- Looking for dlfcn.h - found
+[2.262s] -- Looking for libdl - found
+[2.275s] -- Searching for <ignition-common3> component [graphics]
+[2.275s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.276s] -- Searching for dependencies of ignition-common3-graphics
+[2.276s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.276s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.276s] -- Searching for dependencies of ignition-fuel_tools4
+[2.313s] -- Checking for module 'jsoncpp'
+[2.336s] --   Found jsoncpp, version 1.9.5
+[2.466s] -- Checking for module 'libzip'
+[2.481s] --   Found libzip, version 1.7.3
+[2.506s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.508s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.508s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.511s] -- Gazebo version: 11.10
+[2.521s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.646s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.647s] -- Configured cppcheck include dirs: 
+[2.647s] -- Configured cppcheck exclude dirs and/or files: 
+[2.647s] -- Added test 'lint_cmake' to check CMake code style
+[2.649s] -- Added test 'uncrustify' to check C / C++ code style
+[2.651s] -- Configured uncrustify additional arguments: 
+[2.651s] -- Added test 'xmllint' to check XML markup files
+[2.651s] -- Configuring done
+[2.690s] -- Generating done
+[2.694s] -- Build files have been written to: /home/student/ros2_ws/build/sprint3
+[2.767s] [35m[1mConsolidate compiler generated dependencies of target cylinder_detection_node[0m
+[2.767s] [35m[1mConsolidate compiler generated dependencies of target map_overlay_node[0m
+[2.792s] [ 50%] Built target map_overlay_node
+[2.802s] [100%] Built target cylinder_detection_node
+[2.822s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3
+[2.884s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/sprint3
+[2.898s] -- Install configuration: "Release"
+[2.898s] -- Installing: /home/student/ros2_ws/install/sprint3/lib/sprint3/map_overlay_node
+[2.900s] -- Set runtime path of "/home/student/ros2_ws/install/sprint3/lib/sprint3/map_overlay_node" to ""
+[2.900s] -- Installing: /home/student/ros2_ws/install/sprint3/lib/sprint3/cylinder_detection_node
+[2.903s] -- Set runtime path of "/home/student/ros2_ws/install/sprint3/lib/sprint3/cylinder_detection_node" to ""
+[2.904s] -- Installing: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/package_run_dependencies/sprint3
+[2.904s] -- Installing: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/parent_prefix_path/sprint3
+[2.905s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/ament_prefix_path.sh
+[2.905s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/ament_prefix_path.dsv
+[2.908s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/path.sh
+[2.908s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/path.dsv
+[2.908s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.bash
+[2.908s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.sh
+[2.908s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.zsh
+[2.908s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.dsv
+[2.908s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/package.dsv
+[2.909s] -- Installing: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/packages/sprint3
+[2.909s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/cmake/sprint3Config.cmake
+[2.909s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/cmake/sprint3Config-version.cmake
+[2.909s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/package.xml
+[2.913s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/sprint3

@@ -1,0 +1,70 @@
+[0.090s] Invoking command in '/home/student/ros2_ws/build/robot_localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/robot_localization
+[0.140s] [35m[1mConsolidate compiler generated dependencies of target robot_localization__rosidl_generator_c[0m
+[0.149s] [  1%] Built target robot_localization__cpp
+[0.158s] [  8%] Built target robot_localization__rosidl_generator_c
+[0.181s] [35m[1mConsolidate compiler generated dependencies of target dead_reckoning[0m
+[0.203s] [  8%] Built target ament_cmake_python_copy_robot_localization
+[0.212s] [  9%] Built target dead_reckoning
+[0.221s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[0.237s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[0.245s] [ 11%] Built target gtest_main
+[0.261s] [ 13%] Built target gtest
+[0.271s] [35m[1mConsolidate compiler generated dependencies of target robot_localization__rosidl_typesupport_cpp[0m
+[0.283s] [35m[1mConsolidate compiler generated dependencies of target robot_localization__rosidl_typesupport_fastrtps_c[0m
+[0.303s] [ 21%] Built target robot_localization__rosidl_typesupport_cpp
+[0.308s] [ 28%] Built target robot_localization__rosidl_typesupport_fastrtps_c
+[0.324s] [35m[1mConsolidate compiler generated dependencies of target robot_localization__rosidl_typesupport_fastrtps_cpp[0m
+[0.333s] [35m[1mConsolidate compiler generated dependencies of target robot_localization__rosidl_typesupport_introspection_c[0m
+[0.355s] [ 36%] Built target robot_localization__rosidl_typesupport_fastrtps_cpp
+[0.356s] [ 43%] Built target robot_localization__rosidl_typesupport_introspection_c
+[0.374s] [35m[1mConsolidate compiler generated dependencies of target robot_localization__rosidl_typesupport_c[0m
+[0.376s] [35m[1mConsolidate compiler generated dependencies of target robot_localization__rosidl_typesupport_introspection_cpp[0m
+[0.391s] [ 51%] Built target robot_localization__rosidl_typesupport_c
+[0.401s] [ 58%] Built target robot_localization__rosidl_typesupport_introspection_cpp
+[0.449s] [35m[1mConsolidate compiler generated dependencies of target rl_lib[0m
+[0.523s] [ 67%] Built target rl_lib
+[0.550s] [ 67%] Built target robot_localization
+[0.579s] [35m[1mConsolidate compiler generated dependencies of target ekf_node[0m
+[0.610s] [ 69%] Built target ekf_node
+[0.630s] [35m[1mConsolidate compiler generated dependencies of target ukf_node[0m
+[0.663s] [ 71%] Built target ukf_node
+[0.683s] [35m[1mConsolidate compiler generated dependencies of target navsat_transform_node[0m
+[0.727s] [ 72%] Built target navsat_transform_node
+[0.759s] [35m[1mConsolidate compiler generated dependencies of target robot_localization_listener_node[0m
+[0.809s] [ 73%] Built target robot_localization_listener_node
+[0.837s] running egg_info
+[0.838s] writing robot_localization.egg-info/PKG-INFO
+[0.838s] writing dependency_links to robot_localization.egg-info/dependency_links.txt
+[0.838s] [35m[1mConsolidate compiler generated dependencies of target filter_base-test[0m
+[0.838s] writing top-level names to robot_localization.egg-info/top_level.txt
+[0.842s] reading manifest file 'robot_localization.egg-info/SOURCES.txt'
+[0.843s] writing manifest file 'robot_localization.egg-info/SOURCES.txt'
+[0.885s] [ 74%] Built target filter_base-test
+[0.919s] [35m[1mConsolidate compiler generated dependencies of target test_filter_base_diagnostics_timestamps[0m
+[0.922s] [ 74%] Built target ament_cmake_python_build_robot_localization_egg
+[0.965s] [35m[1mConsolidate compiler generated dependencies of target test_ekf[0m
+[0.989s] [ 75%] Built target test_filter_base_diagnostics_timestamps
+[1.021s] [35m[1mConsolidate compiler generated dependencies of target test_ekf_node_interfaces[0m
+[1.023s] [ 77%] Built target test_ekf
+[1.061s] [35m[1mConsolidate compiler generated dependencies of target test_ukf[0m
+[1.074s] [ 79%] Built target test_ekf_node_interfaces
+[1.107s] [35m[1mConsolidate compiler generated dependencies of target test_ukf_node_interfaces[0m
+[1.120s] [ 80%] Built target test_ukf
+[1.161s] [35m[1mConsolidate compiler generated dependencies of target test_robot_localization_estimator[0m
+[1.177s] [ 82%] Built target test_ukf_node_interfaces
+[1.207s] [ 83%] Built target test_robot_localization_estimator
+[1.209s] [35m[1mConsolidate compiler generated dependencies of target test_navsat_conversions[0m
+[1.232s] [35m[1mConsolidate compiler generated dependencies of target test_ros_robot_localization_listener[0m
+[1.251s] [ 85%] Built target test_navsat_conversions
+[1.282s] [35m[1mConsolidate compiler generated dependencies of target test_ros_robot_localization_listener_publisher[0m
+[1.292s] [ 87%] Built target test_ros_robot_localization_listener
+[1.323s] [ 89%] Built target test_ros_robot_localization_listener_publisher
+[1.350s] [ 90%] Built target robot_localization__py
+[1.380s] [35m[1mConsolidate compiler generated dependencies of target robot_localization__rosidl_generator_py[0m
+[1.425s] [ 96%] Built target robot_localization__rosidl_generator_py
+[1.440s] [35m[1mConsolidate compiler generated dependencies of target robot_localization__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.445s] [35m[1mConsolidate compiler generated dependencies of target robot_localization__rosidl_typesupport_introspection_c__pyext[0m
+[1.479s] [ 98%] Built target robot_localization__rosidl_typesupport_introspection_c__pyext
+[1.479s] [ 99%] Built target robot_localization__rosidl_typesupport_fastrtps_c__pyext
+[1.493s] [35m[1mConsolidate compiler generated dependencies of target robot_localization__rosidl_typesupport_c__pyext[0m
+[1.517s] [100%] Built target robot_localization__rosidl_typesupport_c__pyext

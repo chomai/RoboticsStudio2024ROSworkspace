@@ -1,0 +1,16 @@
+[0.023s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8
+[0.210s] [ 50%] Built target map_overlay_node
+[0.321s] [35m[1mConsolidate compiler generated dependencies of target cylinder_detection_node[0m
+[0.468s] [ 75%] [32mBuilding CXX object CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o[0m
+[9.093s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::publishCylinderMarker(float, float, float)[m[K’:
+[9.093s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:80:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[9.093s]    80 |     void publishCylinderMarker(float x, float y, [01;35m[Kfloat z[m[K)
+[9.093s]       |                                                  [01;35m[K~~~~~~^[m[K
+[9.095s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::writeCylinderMapYaml(const string&)[m[K’:
+[9.095s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:168:42:[m[K [01;31m[Kerror: [m[Kvariable ‘[01m[Kstd::ofstream yaml_file[m[K’ has initializer but incomplete type
+[9.095s]   168 |         std::ofstream yaml_file(yaml_path[01;31m[K)[m[K;
+[9.095s]       |                                          [01;31m[K^[m[K
+[16.366s] gmake[2]: *** [CMakeFiles/cylinder_detection_node.dir/build.make:76: CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o] Error 1
+[16.366s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cylinder_detection_node.dir/all] Error 2
+[16.366s] gmake: *** [Makefile:146: all] Error 2
+[16.385s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8

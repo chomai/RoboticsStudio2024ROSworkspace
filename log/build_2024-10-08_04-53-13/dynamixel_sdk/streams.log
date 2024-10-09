@@ -1,0 +1,70 @@
+[0.038s] Invoking command in '/home/student/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/dynamixel_sdk
+[0.141s] -- The C compiler identification is GNU 11.4.0
+[0.235s] -- The CXX compiler identification is GNU 11.4.0
+[0.252s] -- Detecting C compiler ABI info
+[0.376s] -- Detecting C compiler ABI info - done
+[0.391s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.391s] -- Detecting C compile features
+[0.392s] -- Detecting C compile features - done
+[0.396s] -- Detecting CXX compiler ABI info
+[0.542s] -- Detecting CXX compiler ABI info - done
+[0.559s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.559s] -- Detecting CXX compile features
+[0.559s] -- Detecting CXX compile features - done
+[0.571s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.816s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.102s] -- Configuring done
+[1.112s] -- Generating done
+[1.115s] -- Build files have been written to: /home/student/ros2_ws/build/dynamixel_sdk
+[1.128s] Invoked command in '/home/student/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/DynamixelSDK/dynamixel_sdk -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/dynamixel_sdk
+[1.129s] Invoking command in '/home/student/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/dynamixel_sdk -- -j8 -l8
+[1.247s] [ 10%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o[0m
+[1.364s] [ 20%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o[0m
+[1.406s] [ 30%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o[0m
+[1.570s] [ 40%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o[0m
+[2.231s] [ 50%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o[0m
+[2.845s] [ 60%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o[0m
+[3.403s] [ 70%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o[0m
+[3.982s] [ 80%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o[0m
+[4.294s] [ 90%] [32mBuilding CXX object CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o[0m
+[4.542s] [100%] [32m[1mLinking CXX shared library libdynamixel_sdk.so[0m
+[4.691s] [100%] Built target dynamixel_sdk
+[4.713s] Invoked command in '/home/student/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/dynamixel_sdk -- -j8 -l8
+[4.822s] Invoking command in '/home/student/ros2_ws/build/dynamixel_sdk': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/dynamixel_sdk
+[4.935s] -- Install configuration: ""
+[4.935s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include/
+[4.936s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk
+[4.936s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol2_packet_handler.h
+[4.937s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler.h
+[4.937s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_windows.h
+[4.938s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_linux.h
+[4.938s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_read.h
+[4.938s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_arduino.h
+[4.939s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/dynamixel_sdk.h
+[4.939s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/port_handler_mac.h
+[4.939s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/packet_handler.h
+[4.940s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_read.h
+[4.940s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_bulk_write.h
+[4.940s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/protocol1_packet_handler.h
+[4.941s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/include//dynamixel_sdk/group_sync_write.h
+[4.941s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/lib/libdynamixel_sdk.so
+[4.941s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.sh
+[4.941s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/library_path.dsv
+[4.941s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/ament_index/resource_index/package_run_dependencies/dynamixel_sdk
+[4.941s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk
+[4.941s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.sh
+[4.941s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/ament_prefix_path.dsv
+[4.941s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.sh
+[4.941s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/environment/path.dsv
+[4.942s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.bash
+[4.942s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.sh
+[4.942s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.zsh
+[4.942s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/local_setup.dsv
+[4.945s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.dsv
+[4.946s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/ament_index/resource_index/packages/dynamixel_sdk
+[4.946s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.947s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/ament_cmake_export_libraries-extras.cmake
+[4.947s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig.cmake
+[4.948s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/cmake/dynamixel_sdkConfig-version.cmake
+[4.948s] -- Installing: /home/student/ros2_ws/install/dynamixel_sdk/share/dynamixel_sdk/package.xml
+[4.951s] Invoked command in '/home/student/ros2_ws/build/dynamixel_sdk' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/dynamixel_sdk

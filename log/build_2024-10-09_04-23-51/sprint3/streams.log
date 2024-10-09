@@ -1,0 +1,25 @@
+[0.033s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8
+[0.206s] [35m[1mConsolidate compiler generated dependencies of target cylinder_detection_node[0m
+[0.222s] [ 50%] Built target map_overlay_node
+[0.264s] [100%] Built target cylinder_detection_node
+[0.318s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8
+[0.482s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/sprint3
+[0.543s] -- Install configuration: "Release"
+[0.543s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/lib/sprint3/map_overlay_node
+[0.543s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/lib/sprint3/cylinder_detection_node
+[0.543s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/package_run_dependencies/sprint3
+[0.543s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/parent_prefix_path/sprint3
+[0.543s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/ament_prefix_path.sh
+[0.544s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/ament_prefix_path.dsv
+[0.547s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/path.sh
+[0.548s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/path.dsv
+[0.548s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.bash
+[0.548s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.sh
+[0.548s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.zsh
+[0.548s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.dsv
+[0.548s] -- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/package.dsv
+[0.549s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/packages/sprint3
+[0.549s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/cmake/sprint3Config.cmake
+[0.549s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/cmake/sprint3Config-version.cmake
+[0.549s] -- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/package.xml
+[0.559s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/sprint3

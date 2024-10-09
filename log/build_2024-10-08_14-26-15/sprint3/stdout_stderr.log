@@ -1,0 +1,4 @@
+[ 50%] Built target map_overlay_node
+[35m[1mConsolidate compiler generated dependencies of target cylinder_detection_node[0m
+[100%] Built target cylinder_detection_node
+gmake: *** [Makefile:147: all] Interrupt

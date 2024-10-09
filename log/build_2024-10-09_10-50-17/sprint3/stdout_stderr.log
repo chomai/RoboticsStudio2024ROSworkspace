@@ -1,0 +1,20 @@
+[ 50%] Built target map_overlay_node
+[35m[1mConsolidate compiler generated dependencies of target cylinder_detection_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o[0m
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::publishCylinderMarker(float, float, float)[m[K’:
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:82:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   82 |     void publishCylinderMarker(float x, float y, [01;35m[Kfloat z[m[K)
+      |                                                  [01;35m[K~~~~~~^[m[K
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::drawCylinderOnMap(const string&, const string&, float, float)[m[K’:
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:152:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K([m[K’ token
+  152 |         cv::circle(map_image, cv::Point[01;31m[K([m[Kx_position corrected_cylinder_pixel_y), radius, cv::Scalar(0, 255, 0), -1); // Green filled circle
+      |                                        [01;31m[K^[m[K
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:152:52:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kcorrected_cylinder_pixel_y[m[K’
+  152 |         cv::circle(map_image, cv::Point(x_position [01;31m[Kcorrected_cylinder_pixel_y[m[K), radius, cv::Scalar(0, 255, 0), -1); // Green filled circle
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:152:40:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  152 |         cv::circle(map_image, cv::Point[01;36m[K([m[Kx_position corrected_cylinder_pixel_y), radius, cv::Scalar(0, 255, 0), -1); // Green filled circle
+      |                                        [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/cylinder_detection_node.dir/build.make:76: CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cylinder_detection_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,153 @@
+[0.023s] Invoking command in '/home/student/ros2_ws/build/rtabmap_sync': AMENT_PREFIX_PATH=/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:/home/student/ros2_ws/install/rtabmap:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/my_worlds_pkg:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rtabmap_conversions/lib:/home/student/ros2_ws/install/rtabmap_msgs/lib:/home/student/ros2_ws/install/rtabmap/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/student/ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/student/ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/student/ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/student/ros2_ws/src/rtabmap_ros/rtabmap_sync -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/rtabmap_sync
+[0.095s] -- The C compiler identification is GNU 11.4.0
+[0.161s] -- The CXX compiler identification is GNU 11.4.0
+[0.172s] -- Detecting C compiler ABI info
+[0.248s] -- Detecting C compiler ABI info - done
+[0.256s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.257s] -- Detecting C compile features
+[0.257s] -- Detecting C compile features - done
+[0.260s] -- Detecting CXX compiler ABI info
+[0.347s] -- Detecting CXX compiler ABI info - done
+[0.356s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.356s] -- Detecting CXX compile features
+[0.357s] -- Detecting CXX compile features - done
+[0.360s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.530s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.713s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.720s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.731s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.746s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.766s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.843s] -- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)
+[0.903s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.907s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.011s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.055s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.105s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.116s] -- Looking for pthread.h
+[1.198s] -- Looking for pthread.h - found
+[1.198s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.275s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.277s] -- Found Threads: TRUE  
+[1.361s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.385s] -- Found rclcpp_components: 16.0.10 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.406s] -- Found rtabmap_conversions: 0.21.5 (/home/student/ros2_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake)
+[1.597s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.598s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.619s] -- Checking for module 'eigen3'
+[1.633s] --   Found eigen3, version 3.4.0
+[1.669s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.670s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.764s] -- Checking for module 'libusb-1.0'
+[1.779s] --   Found libusb-1.0, version 1.0.25
+[1.817s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[1.818s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.882s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.906s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.924s] -- Checking for module 'flann'
+[2.940s] --   Found flann, version 1.9.1
+[2.989s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.989s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.993s] -- Found Qhull version 8.0.2
+[3.558s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.566s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.738s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.739s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.740s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.742s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.743s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.744s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.745s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.745s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.747s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.748s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.749s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.749s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.751s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.752s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.753s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.776s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[3.802s] -- RTABMAP_SYNC_MULTI_RGBD = OFF
+[3.802s] -- RTABMAP_SYNC_USER_DATA  = OFF
+[3.909s] -- Configuring done
+[4.091s] -- Generating done
+[4.095s] -- Build files have been written to: /home/student/ros2_ws/build/rtabmap_sync
+[4.122s] Invoked command in '/home/student/ros2_ws/build/rtabmap_sync' returned '0': AMENT_PREFIX_PATH=/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:/home/student/ros2_ws/install/rtabmap:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/my_worlds_pkg:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rtabmap_conversions/lib:/home/student/ros2_ws/install/rtabmap_msgs/lib:/home/student/ros2_ws/install/rtabmap/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/student/ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/student/ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/student/ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/student/ros2_ws/src/rtabmap_ros/rtabmap_sync -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/rtabmap_sync
+[4.124s] Invoking command in '/home/student/ros2_ws/build/rtabmap_sync': AMENT_PREFIX_PATH=/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:/home/student/ros2_ws/install/rtabmap:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/my_worlds_pkg:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rtabmap_conversions/lib:/home/student/ros2_ws/install/rtabmap_msgs/lib:/home/student/ros2_ws/install/rtabmap/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/student/ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/student/ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/student/ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/ros2_ws/build/rtabmap_sync
+[4.188s] [  4%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o[0m
+[4.189s] [  8%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbdx_sync.cpp.o[0m
+[53.712s] [ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbd_sync.cpp.o[0m
+[79.863s] [ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o[0m
+[81.359s] [ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/stereo_sync.cpp.o[0m
+[105.552s] [ 26%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgb_sync.cpp.o[0m
+[131.561s] [ 30%] [32m[1mLinking CXX shared library librtabmap_sync_plugins.so[0m
+[132.721s] [ 30%] Built target rtabmap_sync_plugins
+[132.731s] [ 34%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberStereo.cpp.o[0m
+[156.977s] [ 39%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGB.cpp.o[0m
+[169.264s] [ 43%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBD.cpp.o[0m
+[226.201s] [ 47%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBDX.cpp.o[0m
+[229.336s] [ 52%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberScan.cpp.o[0m
+[281.179s] [ 56%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberOdom.cpp.o[0m
+[282.277s] [ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberSensorData.cpp.o[0m
+[305.114s] [ 65%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_sync.dir/src/RGBDSyncNode.cpp.o[0m
+[313.524s] [ 69%] [32m[1mLinking CXX executable rgbd_sync[0m
+[314.863s] [ 73%] [32m[1mLinking CXX shared library librtabmap_sync.so[0m
+[314.868s] [ 73%] Built target rtabmap_rgbd_sync
+[314.891s] [ 78%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbdx_sync.dir/src/RGBDXSyncNode.cpp.o[0m
+[317.912s] [ 78%] Built target rtabmap_sync
+[317.941s] [ 82%] [32mBuilding CXX object CMakeFiles/rtabmap_stereo_sync.dir/src/StereoSyncNode.cpp.o[0m
+[323.879s] [ 86%] [32m[1mLinking CXX executable rgbdx_sync[0m
+[325.190s] [ 86%] Built target rtabmap_rgbdx_sync
+[325.214s] [ 91%] [32mBuilding CXX object CMakeFiles/rtabmap_rgb_sync.dir/src/RGBSyncNode.cpp.o[0m
+[326.500s] [ 95%] [32m[1mLinking CXX executable stereo_sync[0m
+[327.853s] [ 95%] Built target rtabmap_stereo_sync
+[333.638s] [100%] [32m[1mLinking CXX executable rgb_sync[0m
+[335.022s] [100%] Built target rtabmap_rgb_sync
+[335.035s] Invoked command in '/home/student/ros2_ws/build/rtabmap_sync' returned '0': AMENT_PREFIX_PATH=/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:/home/student/ros2_ws/install/rtabmap:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/my_worlds_pkg:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rtabmap_conversions/lib:/home/student/ros2_ws/install/rtabmap_msgs/lib:/home/student/ros2_ws/install/rtabmap/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/student/ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/student/ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/student/ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/ros2_ws/build/rtabmap_sync
+[335.121s] Invoking command in '/home/student/ros2_ws/build/rtabmap_sync': AMENT_PREFIX_PATH=/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:/home/student/ros2_ws/install/rtabmap:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/my_worlds_pkg:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rtabmap_conversions/lib:/home/student/ros2_ws/install/rtabmap_msgs/lib:/home/student/ros2_ws/install/rtabmap/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/student/ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/student/ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/student/ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/ros2_ws/build/rtabmap_sync
+[335.129s] -- Install configuration: "Release"
+[335.129s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.sh
+[335.130s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.dsv
+[335.130s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/lib/librtabmap_sync.so
+[335.165s] -- Set runtime path of "/home/student/ros2_ws/install/rtabmap_sync/lib/librtabmap_sync.so" to ""
+[335.165s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so
+[335.172s] -- Set runtime path of "/home/student/ros2_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so" to ""
+[335.172s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbd_sync
+[335.172s] -- Set runtime path of "/home/student/ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbd_sync" to ""
+[335.172s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbdx_sync
+[335.173s] -- Set runtime path of "/home/student/ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbdx_sync" to ""
+[335.173s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/stereo_sync
+[335.173s] -- Set runtime path of "/home/student/ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/stereo_sync" to ""
+[335.173s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/rgb_sync
+[335.173s] -- Set runtime path of "/home/student/ros2_ws/install/rtabmap_sync/lib/rtabmap_sync/rgb_sync" to ""
+[335.174s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/include
+[335.174s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/include/rtabmap_sync
+[335.174s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/GetTopicName.h
+[335.174s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriber.h
+[335.174s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/visibility.h
+[335.174s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/SyncDiagnostic.h
+[335.174s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriberDefines.h
+[335.174s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/ament_index/resource_index/package_run_dependencies/rtabmap_sync
+[335.175s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/ament_index/resource_index/parent_prefix_path/rtabmap_sync
+[335.175s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.sh
+[335.175s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.dsv
+[335.175s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.sh
+[335.175s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.dsv
+[335.175s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.bash
+[335.176s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.sh
+[335.176s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.zsh
+[335.176s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.dsv
+[335.176s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/package.dsv
+[335.176s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/ament_index/resource_index/packages/rtabmap_sync
+[335.176s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/ament_index/resource_index/rclcpp_components/rtabmap_sync
+[335.176s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport.cmake
+[335.177s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport-release.cmake
+[335.177s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/extra_configs.cmake
+[335.177s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_dependencies-extras.cmake
+[335.177s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_include_directories-extras.cmake
+[335.177s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_targets-extras.cmake
+[335.177s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_libraries-extras.cmake
+[335.177s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig.cmake
+[335.177s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig-version.cmake
+[335.178s] -- Installing: /home/student/ros2_ws/install/rtabmap_sync/share/rtabmap_sync/package.xml
+[335.180s] Invoked command in '/home/student/ros2_ws/build/rtabmap_sync' returned '0': AMENT_PREFIX_PATH=/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:/home/student/ros2_ws/install/rtabmap:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/my_worlds_pkg:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble LD_LIBRARY_PATH=/home/student/ros2_ws/install/rtabmap_conversions/lib:/home/student/ros2_ws/install/rtabmap_msgs/lib:/home/student/ros2_ws/install/rtabmap/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins PATH=/home/student/ros2_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/student/ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/student/ros2_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/ros2_ws/build/rtabmap_sync

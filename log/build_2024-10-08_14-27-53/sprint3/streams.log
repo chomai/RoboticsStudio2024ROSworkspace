@@ -1,0 +1,12 @@
+[0.035s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8
+[0.261s] [ 50%] Built target map_overlay_node
+[0.357s] [ 75%] [32mBuilding CXX object CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o[0m
+[7.142s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::updateMapWithCylinder(float, float)[m[K’:
+[7.142s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:71:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmap_sub_[m[K’?
+[7.142s]    71 |     [01;31m[Kmap_pub_[m[K->publish(map_data_);
+[7.142s]       |     [01;31m[K^~~~~~~~[m[K
+[7.142s]       |     [32m[Kmap_sub_[m[K
+[15.808s] gmake[2]: *** [CMakeFiles/cylinder_detection_node.dir/build.make:76: CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o] Error 1
+[15.808s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cylinder_detection_node.dir/all] Error 2
+[15.808s] gmake: *** [Makefile:146: all] Error 2
+[15.813s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8

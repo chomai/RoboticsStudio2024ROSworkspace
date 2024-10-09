@@ -1,0 +1,32 @@
+[0.016s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8
+[0.089s] [ 50%] Built target map_overlay_node
+[0.106s] [35m[1mConsolidate compiler generated dependencies of target cylinder_detection_node[0m
+[0.130s] [ 75%] [32mBuilding CXX object CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o[0m
+[3.212s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:113:103:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+[3.212s]   113 | std::string& original_map_path, const std::string& new_map_path, [01;31m[K0[m[K,0)
+[3.212s]       |                                                                  [01;31m[K^[m[K
+[3.212s] 
+[3.212s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:113:103:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before numeric constant
+[3.266s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::laserCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.267s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:70:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCylinderDetectionNode::drawCylinderOnMap(const char [47], const char [47], const tf2Scalar&, const tf2Scalar&)[m[K’
+[3.267s]    70 |                 [01;31m[KdrawCylinderOnMap("/home/student/ros2_ws/sprint3_v1_carto_map.pgm", "/home/student/ros2_ws/sprint3_cylinder_map.pgm", global_position.x(), global_position.y())[m[K;
+[3.267s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.267s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:113:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid CylinderDetectionNode::drawCylinderOnMap(const string&, const string&, int)[m[K’
+[3.267s]   113 |         void [01;36m[KdrawCylinderOnMap[m[K(const std::string& original_map_path, const std::string& new_map_path, 0,0)
+[3.267s]       |              [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[3.267s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:113:14:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+[3.268s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::publishCylinderMarker(float, float, float)[m[K’:
+[3.268s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:79:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.268s]    79 |     void publishCylinderMarker(float x, float y, [01;35m[Kfloat z[m[K)
+[3.268s]       |                                                  [01;35m[K~~~~~~^[m[K
+[3.277s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::drawCylinderOnMap(const string&, const string&, int)[m[K’:
+[3.278s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:126:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcylinder_x[m[K’ was not declared in this scope
+[3.278s]   126 |         int cylinder_pixel_x = static_cast<int>([01;31m[Kcylinder_x[m[K / map_resolution);
+[3.278s]       |                                                 [01;31m[K^~~~~~~~~~[m[K
+[3.285s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:127:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcylinder_y[m[K’ was not declared in this scope
+[3.286s]   127 |         int cylinder_pixel_y = static_cast<int>([01;31m[Kcylinder_y[m[K / map_resolution);
+[3.286s]       |                                                 [01;31m[K^~~~~~~~~~[m[K
+[6.047s] gmake[2]: *** [CMakeFiles/cylinder_detection_node.dir/build.make:76: CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o] Error 1
+[6.048s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cylinder_detection_node.dir/all] Error 2
+[6.048s] gmake: *** [Makefile:146: all] Error 2
+[6.051s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8

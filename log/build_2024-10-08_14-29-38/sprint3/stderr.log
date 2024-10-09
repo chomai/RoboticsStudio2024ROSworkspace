@@ -1,0 +1,13 @@
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In constructor ‘[01m[KCylinderDetectionNode::CylinderDetectionNode()[m[K’:
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmap_sub_[m[K’?
+   17 |         [01;31m[Kmap_pub_[m[K = this->create_publisher<nav_msgs::msg::OccupancyGrid>("updated_map", 10);
+      |         [01;31m[K^~~~~~~~[m[K
+      |         [32m[Kmap_sub_[m[K
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::updateMapWithCylinder(float, float)[m[K’:
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmap_sub_[m[K’?
+   74 |     [01;31m[Kmap_pub_[m[K->publish(map_data_);
+      |     [01;31m[K^~~~~~~~[m[K
+      |     [32m[Kmap_sub_[m[K
+gmake[2]: *** [CMakeFiles/cylinder_detection_node.dir/build.make:76: CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cylinder_detection_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

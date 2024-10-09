@@ -1,0 +1,12 @@
+{
+  "package_name": "robot_localization",
+  "non_idl_tuples": [
+    "/home/student/ros2_ws/src/robot_localization-f6b28e0c5bcf98d161cb65b9d28d00ced77fe3ab:srv/FromLL.srv",
+    "/home/student/ros2_ws/src/robot_localization-f6b28e0c5bcf98d161cb65b9d28d00ced77fe3ab:srv/GetState.srv",
+    "/home/student/ros2_ws/src/robot_localization-f6b28e0c5bcf98d161cb65b9d28d00ced77fe3ab:srv/SetDatum.srv",
+    "/home/student/ros2_ws/src/robot_localization-f6b28e0c5bcf98d161cb65b9d28d00ced77fe3ab:srv/SetPose.srv",
+    "/home/student/ros2_ws/src/robot_localization-f6b28e0c5bcf98d161cb65b9d28d00ced77fe3ab:srv/SetUTMZone.srv",
+    "/home/student/ros2_ws/src/robot_localization-f6b28e0c5bcf98d161cb65b9d28d00ced77fe3ab:srv/ToggleFilterProcessing.srv",
+    "/home/student/ros2_ws/src/robot_localization-f6b28e0c5bcf98d161cb65b9d28d00ced77fe3ab:srv/ToLL.srv"
+  ]
+}

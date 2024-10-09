@@ -1,0 +1,15 @@
+In file included from [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:9[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::updateMapWithObstacle(double, double)[m[K’:
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:132:45:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  132 |         if (map_x < 0 || map_y < 0 || [01;35m[Kmap_x >= map_.info.width[m[K || map_y >= map_.info.height)
+      |                                       [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:132:73:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  132 | map_x < 0 || map_y < 0 || map_x >= map_.info.width || [01;35m[Kmap_y >= map_.info.height[m[K)
+      |                                                       [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:141:33:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<signed char, std::allocator<signed char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+  141 |         if (index >= 0 && [01;35m[Kindex < map_.data.size()[m[K)
+      |                           [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~[m[K

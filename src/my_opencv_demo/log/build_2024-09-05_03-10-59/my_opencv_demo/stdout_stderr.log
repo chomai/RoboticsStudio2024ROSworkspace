@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target scan_to_image_node[0m
+[ 25%] Built target scan_processor
+[ 50%] Built target image_processor
+[ 75%] Built target minimal_opencv_ros2_node
+[ 87%] [32mBuilding CXX object CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o[0m
+[01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:[m[K In member function ‘[01m[Kvoid ScanToImageNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_scan_received_[m[K’ was not declared in this scope
+   35 |         [01;31m[Kfirst_scan_received_[m[K = true;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/scan_to_image_node.dir/build.make:76: CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/scan_to_image_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

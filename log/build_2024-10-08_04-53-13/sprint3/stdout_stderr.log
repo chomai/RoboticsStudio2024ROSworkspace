@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target map_overlay_node[0m
+[ 33%] Built target map_overlay_node
+[ 50%] [32mBuilding CXX object CMakeFiles/cylinder_adder_node.dir/src/cylinder_adder_node.cpp.o[0m
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_adder_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_ros/gazebo_ros.hpp: No such file or directory
+    3 | #include [01;31m[K"gazebo_ros/gazebo_ros.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/cylinder_adder_node.dir/build.make:76: CMakeFiles/cylinder_adder_node.dir/src/cylinder_adder_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/cylinder_adder_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

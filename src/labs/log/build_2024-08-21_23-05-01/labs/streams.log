@@ -1,0 +1,29 @@
+[0.078s] Invoking command in '/home/student/ros2_ws/src/labs/build/labs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/labs/build/labs -- -j8 -l8
+[1.070s] [ 33%] Built target lab1
+[1.179s] [ 50%] [32mBuilding CXX object CMakeFiles/sprint1.dir/src/sprint1.cpp.o[0m
+[21.854s] [ 66%] [32m[1mLinking CXX executable sprint1[0m
+[23.148s] [ 66%] Built target sprint1
+[23.274s] [100%] Built target lab2
+[23.301s] Invoked command in '/home/student/ros2_ws/src/labs/build/labs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/labs/build/labs -- -j8 -l8
+[23.418s] Invoking command in '/home/student/ros2_ws/src/labs/build/labs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/labs/build/labs
+[23.445s] -- Install configuration: ""
+[23.466s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/lib/labs/lab1
+[23.476s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/lib/labs/lab2
+[23.480s] -- Installing: /home/student/ros2_ws/src/labs/install/labs/lib/labs/sprint1
+[23.499s] -- Set runtime path of "/home/student/ros2_ws/src/labs/install/labs/lib/labs/sprint1" to ""
+[23.499s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/share/ament_index/resource_index/package_run_dependencies/labs
+[23.500s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/share/ament_index/resource_index/parent_prefix_path/labs
+[23.500s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/share/labs/environment/ament_prefix_path.sh
+[23.500s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/share/labs/environment/ament_prefix_path.dsv
+[23.502s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/share/labs/environment/path.sh
+[23.504s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/share/labs/environment/path.dsv
+[23.519s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/share/labs/local_setup.bash
+[23.519s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/share/labs/local_setup.sh
+[23.519s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/share/labs/local_setup.zsh
+[23.519s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/share/labs/local_setup.dsv
+[23.519s] -- Installing: /home/student/ros2_ws/src/labs/install/labs/share/labs/package.dsv
+[23.520s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/share/ament_index/resource_index/packages/labs
+[23.520s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/share/labs/cmake/labsConfig.cmake
+[23.521s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/share/labs/cmake/labsConfig-version.cmake
+[23.521s] -- Up-to-date: /home/student/ros2_ws/src/labs/install/labs/share/labs/package.xml
+[23.524s] Invoked command in '/home/student/ros2_ws/src/labs/build/labs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/labs/build/labs

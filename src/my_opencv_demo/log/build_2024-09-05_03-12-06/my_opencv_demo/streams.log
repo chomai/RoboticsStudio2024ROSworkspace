@@ -1,0 +1,35 @@
+[0.023s] Invoking command in '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo -- -j8 -l8
+[0.103s] [35m[1mConsolidate compiler generated dependencies of target scan_to_image_node[0m
+[0.136s] [ 25%] Built target scan_processor
+[0.137s] [ 50%] Built target minimal_opencv_ros2_node
+[0.140s] [ 75%] Built target image_processor
+[0.148s] [ 87%] [32mBuilding CXX object CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o[0m
+[13.513s] [100%] [32m[1mLinking CXX executable scan_to_image_node[0m
+[14.204s] [100%] Built target scan_to_image_node
+[14.224s] Invoked command in '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo -- -j8 -l8
+[14.307s] Invoking command in '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo
+[14.322s] -- Install configuration: ""
+[14.322s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/minimal_opencv_ros2_node
+[14.324s] -- Set runtime path of "/home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/minimal_opencv_ros2_node" to ""
+[14.324s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/image_processor
+[14.330s] -- Set runtime path of "/home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/image_processor" to ""
+[14.330s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/scan_processor
+[14.336s] -- Set runtime path of "/home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/scan_processor" to ""
+[14.336s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/scan_to_image_node
+[14.342s] -- Set runtime path of "/home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/scan_to_image_node" to ""
+[14.343s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/ament_index/resource_index/package_run_dependencies/my_opencv_demo
+[14.343s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/ament_index/resource_index/parent_prefix_path/my_opencv_demo
+[14.343s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/environment/ament_prefix_path.sh
+[14.343s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/environment/ament_prefix_path.dsv
+[14.343s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/environment/path.sh
+[14.344s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/environment/path.dsv
+[14.344s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/local_setup.bash
+[14.344s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/local_setup.sh
+[14.345s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/local_setup.zsh
+[14.345s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/local_setup.dsv
+[14.345s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/package.dsv
+[14.345s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/ament_index/resource_index/packages/my_opencv_demo
+[14.346s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/cmake/my_opencv_demoConfig.cmake
+[14.346s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/cmake/my_opencv_demoConfig-version.cmake
+[14.346s] -- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/package.xml
+[14.352s] Invoked command in '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo

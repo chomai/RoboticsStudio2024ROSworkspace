@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target lab1[0m
+[35m[1mConsolidate compiler generated dependencies of target lab2[0m
+[ 33%] Built target lab1
+[ 66%] Built target lab2
+[35m[1mConsolidate compiler generated dependencies of target sprint1[0m
+[100%] Built target sprint1
+-- Install configuration: "Release"
+-- Installing: /home/student/ros2_ws/install/labs/lib/labs/lab1
+-- Set runtime path of "/home/student/ros2_ws/install/labs/lib/labs/lab1" to ""
+-- Installing: /home/student/ros2_ws/install/labs/lib/labs/lab2
+-- Set runtime path of "/home/student/ros2_ws/install/labs/lib/labs/lab2" to ""
+-- Installing: /home/student/ros2_ws/install/labs/lib/labs/sprint1
+-- Set runtime path of "/home/student/ros2_ws/install/labs/lib/labs/sprint1" to ""
+-- Installing: /home/student/ros2_ws/install/labs/share/ament_index/resource_index/package_run_dependencies/labs
+-- Installing: /home/student/ros2_ws/install/labs/share/ament_index/resource_index/parent_prefix_path/labs
+-- Installing: /home/student/ros2_ws/install/labs/share/labs/environment/ament_prefix_path.sh
+-- Installing: /home/student/ros2_ws/install/labs/share/labs/environment/ament_prefix_path.dsv
+-- Installing: /home/student/ros2_ws/install/labs/share/labs/environment/path.sh
+-- Installing: /home/student/ros2_ws/install/labs/share/labs/environment/path.dsv
+-- Installing: /home/student/ros2_ws/install/labs/share/labs/local_setup.bash
+-- Installing: /home/student/ros2_ws/install/labs/share/labs/local_setup.sh
+-- Installing: /home/student/ros2_ws/install/labs/share/labs/local_setup.zsh
+-- Installing: /home/student/ros2_ws/install/labs/share/labs/local_setup.dsv
+-- Installing: /home/student/ros2_ws/install/labs/share/labs/package.dsv
+-- Installing: /home/student/ros2_ws/install/labs/share/ament_index/resource_index/packages/labs
+-- Installing: /home/student/ros2_ws/install/labs/share/labs/cmake/labsConfig.cmake
+-- Installing: /home/student/ros2_ws/install/labs/share/labs/cmake/labsConfig-version.cmake
+-- Installing: /home/student/ros2_ws/install/labs/share/labs/package.xml

@@ -1,0 +1,3 @@
+gmake[2]: *** No rule to make target '/home/student/ros2_ws/src/sprint3/src/cylinder_adder_node.cpp', needed by 'CMakeFiles/cylinder_adder_node.dir/src/cylinder_adder_node.cpp.o'.  Stop.
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/cylinder_adder_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

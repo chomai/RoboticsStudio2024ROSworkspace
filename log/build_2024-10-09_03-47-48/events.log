@@ -1,0 +1,329 @@
+[0.000000] (-) TimerEvent: {}
+[0.000380] (-) JobUnselected: {'identifier': 'dynamixel_sdk'}
+[0.000664] (-) JobUnselected: {'identifier': 'dynamixel_sdk_custom_interfaces'}
+[0.000698] (-) JobUnselected: {'identifier': 'dynamixel_sdk_examples'}
+[0.001027] (-) JobUnselected: {'identifier': 'labs'}
+[0.001055] (-) JobUnselected: {'identifier': 'my_opencv_demo'}
+[0.001083] (-) JobUnselected: {'identifier': 'my_worlds_pkg'}
+[0.001131] (-) JobUnselected: {'identifier': 'robot_localization'}
+[0.001159] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.001396] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.001426] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.001463] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.001491] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.001670] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.001697] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.001725] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.001768] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.001796] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.002171] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.002198] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.002248] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.002343] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.002372] (-) JobUnselected: {'identifier': 'search_rescue_package'}
+[0.002397] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.002433] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.002474] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.002571] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.002597] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.002622] (-) JobUnselected: {'identifier': 'turtlebot3_fake_node'}
+[0.002649] (-) JobUnselected: {'identifier': 'turtlebot3_gazebo'}
+[0.002674] (-) JobUnselected: {'identifier': 'turtlebot3_msgs'}
+[0.002703] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.002760] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.002861] (-) JobUnselected: {'identifier': 'turtlebot3_simulations'}
+[0.002888] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.002927] (-) JobUnselected: {'identifier': 'turtlesim'}
+[0.003000] (sprint3) JobQueued: {'identifier': 'sprint3', 'dependencies': OrderedDict()}
+[0.003057] (sprint3) JobStarted: {'identifier': 'sprint3'}
+[0.014322] (sprint3) JobProgress: {'identifier': 'sprint3', 'progress': 'cmake'}
+[0.015501] (sprint3) JobProgress: {'identifier': 'sprint3', 'progress': 'build'}
+[0.016687] (sprint3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/build/sprint3', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/build/sprint3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '2084'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/rtabmap_slam/lib:/home/student/ros2_ws/install/rtabmap_odom/lib:/home/student/ros2_ws/install/rtabmap_util/lib:/home/student/ros2_ws/install/rtabmap_sync/lib:/home/student/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/student/ros2_ws/install/rtabmap_conversions/lib:/home/student/ros2_ws/install/rtabmap_msgs/lib:/home/student/ros2_ws/install/rtabmap/lib:/home/student/ros2_ws/install/robot_localization/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2208'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/student/ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/student/ros2_ws/install/rtabmap/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/student/ros2_ws/install/rtabmap/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/2183,unix/labMGJSX0:/tmp/.ICE-unix/2183'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b10c711_3b2f_40ea_a00b_eb8829ee3231'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/search_rescue_package:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/sprint3:/home/student/ros2_ws/install/rtabmap_ros:/home/student/ros2_ws/install/rtabmap_launch:/home/student/ros2_ws/install/rtabmap_examples:/home/student/ros2_ws/install/rtabmap_demos:/home/student/ros2_ws/install/rtabmap_viz:/home/student/ros2_ws/install/rtabmap_slam:/home/student/ros2_ws/install/rtabmap_odom:/home/student/ros2_ws/install/rtabmap_util:/home/student/ros2_ws/install/rtabmap_sync:/home/student/ros2_ws/install/rtabmap_rviz_plugins:/home/student/ros2_ws/install/rtabmap_python:/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/my_worlds_pkg:/home/student/ros2_ws/install/my_opencv_demo:/home/student/ros2_ws/install/labs:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/build/sprint3'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/search_rescue_package:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/sprint3:/home/student/ros2_ws/install/rtabmap_ros:/home/student/ros2_ws/install/rtabmap_launch:/home/student/ros2_ws/install/rtabmap_examples:/home/student/ros2_ws/install/rtabmap_demos:/home/student/ros2_ws/install/rtabmap_viz:/home/student/ros2_ws/install/rtabmap_slam:/home/student/ros2_ws/install/rtabmap_odom:/home/student/ros2_ws/install/rtabmap_util:/home/student/ros2_ws/install/rtabmap_sync:/home/student/ros2_ws/install/rtabmap_rviz_plugins:/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:/home/student/ros2_ws/install/rtabmap:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/my_worlds_pkg:/home/student/ros2_ws/install/my_opencv_demo:/home/student/ros2_ws/install/labs:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble')]), 'shell': False}
+[0.099743] (-) TimerEvent: {}
+[0.114428] (sprint3) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199850] (-) TimerEvent: {}
+[0.300224] (-) TimerEvent: {}
+[0.400703] (-) TimerEvent: {}
+[0.473386] (sprint3) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.500871] (-) TimerEvent: {}
+[0.601494] (-) TimerEvent: {}
+[0.626697] (sprint3) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.631292] (sprint3) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.666072] (sprint3) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.701611] (-) TimerEvent: {}
+[0.733479] (sprint3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.760249] (sprint3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.801792] (-) TimerEvent: {}
+[0.902161] (-) TimerEvent: {}
+[0.917958] (sprint3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.926676] (sprint3) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.002340] (-) TimerEvent: {}
+[1.102751] (-) TimerEvent: {}
+[1.153509] (sprint3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.202900] (-) TimerEvent: {}
+[1.303379] (-) TimerEvent: {}
+[1.403737] (-) TimerEvent: {}
+[1.415840] (sprint3) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.503848] (-) TimerEvent: {}
+[1.581469] (sprint3) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.603954] (sprint3) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.604196] (-) TimerEvent: {}
+[1.622005] (sprint3) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.704462] (-) TimerEvent: {}
+[1.804841] (-) TimerEvent: {}
+[1.809700] (sprint3) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[1.849523] (sprint3) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.877672] (sprint3) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.884456] (sprint3) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.886219] (sprint3) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[1.904991] (-) TimerEvent: {}
+[2.004605] (sprint3) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[2.005075] (-) TimerEvent: {}
+[2.105381] (-) TimerEvent: {}
+[2.166992] (sprint3) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[2.179925] (sprint3) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.205567] (-) TimerEvent: {}
+[2.219188] (sprint3) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[2.224252] (sprint3) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[2.234867] (sprint3) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[2.238655] (sprint3) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[2.248273] (sprint3) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[2.248502] (sprint3) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[2.248673] (sprint3) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[2.248801] (sprint3) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[2.248956] (sprint3) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[2.249144] (sprint3) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[2.249289] (sprint3) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[2.249430] (sprint3) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[2.249543] (sprint3) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[2.249644] (sprint3) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[2.249749] (sprint3) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[2.249858] (sprint3) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[2.305650] (-) TimerEvent: {}
+[2.405953] (-) TimerEvent: {}
+[2.457063] (sprint3) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.461511] (sprint3) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[2.462076] (sprint3) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.488742] (sprint3) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.502705] (sprint3) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.506029] (-) TimerEvent: {}
+[2.508765] (sprint3) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.565007] (sprint3) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.606124] (-) TimerEvent: {}
+[2.619827] (sprint3) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.642863] (sprint3) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.689227] (sprint3) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.689905] (sprint3) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.706226] (-) TimerEvent: {}
+[2.713930] (sprint3) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.720326] (sprint3) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.745126] (sprint3) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.788511] (sprint3) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.792402] (sprint3) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.792952] (sprint3) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.793231] (sprint3) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.793407] (sprint3) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.806410] (-) TimerEvent: {}
+[2.812205] (sprint3) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.815977] (sprint3) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.816575] (sprint3) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.817004] (sprint3) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[2.821957] (sprint3) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.822469] (sprint3) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.882851] (sprint3) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.901677] (sprint3) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.906483] (-) TimerEvent: {}
+[2.950871] (sprint3) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[2.975834] (sprint3) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[3.006573] (-) TimerEvent: {}
+[3.020535] (sprint3) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.021167] (sprint3) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[3.021853] (sprint3) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.031219] (sprint3) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[3.057395] (sprint3) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.106738] (-) TimerEvent: {}
+[3.207061] (-) TimerEvent: {}
+[3.217169] (sprint3) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.217490] (sprint3) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.217650] (sprint3) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.223201] (sprint3) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.229675] (sprint3) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.229855] (sprint3) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.232958] (sprint3) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.237788] (sprint3) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.283029] (sprint3) StdoutLine: {'line': b'-- Generating done\n'}
+[3.285775] (sprint3) StdoutLine: {'line': b'-- Build files have been written to: /home/student/ros2_ws/build/sprint3\n'}
+[3.307138] (-) TimerEvent: {}
+[3.330910] (sprint3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cylinder_detection_node\x1b[0m\n'}
+[3.334019] (sprint3) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target map_overlay_node\x1b[0m\n'}
+[3.353189] (sprint3) StdoutLine: {'line': b'[ 50%] Built target map_overlay_node\n'}
+[3.354974] (sprint3) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o\x1b[0m\n'}
+[3.407244] (-) TimerEvent: {}
+[3.507636] (-) TimerEvent: {}
+[3.608062] (-) TimerEvent: {}
+[3.708488] (-) TimerEvent: {}
+[3.808889] (-) TimerEvent: {}
+[3.909293] (-) TimerEvent: {}
+[4.009760] (-) TimerEvent: {}
+[4.110216] (-) TimerEvent: {}
+[4.210702] (-) TimerEvent: {}
+[4.311187] (-) TimerEvent: {}
+[4.411702] (-) TimerEvent: {}
+[4.512183] (-) TimerEvent: {}
+[4.612723] (-) TimerEvent: {}
+[4.713207] (-) TimerEvent: {}
+[4.813654] (-) TimerEvent: {}
+[4.914123] (-) TimerEvent: {}
+[5.166193] (-) TimerEvent: {}
+[5.266670] (-) TimerEvent: {}
+[5.367096] (-) TimerEvent: {}
+[5.467588] (-) TimerEvent: {}
+[5.568065] (-) TimerEvent: {}
+[5.668572] (-) TimerEvent: {}
+[5.769048] (-) TimerEvent: {}
+[5.869551] (-) TimerEvent: {}
+[5.969988] (-) TimerEvent: {}
+[6.070454] (-) TimerEvent: {}
+[6.170918] (-) TimerEvent: {}
+[6.271406] (-) TimerEvent: {}
+[6.371862] (-) TimerEvent: {}
+[6.472354] (-) TimerEvent: {}
+[6.572818] (-) TimerEvent: {}
+[6.673299] (-) TimerEvent: {}
+[6.773749] (-) TimerEvent: {}
+[6.779257] (sprint3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CylinderDetectionNode::publishCylinderMarker(float, float, float)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.779548] (sprint3) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:79:56:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.779657] (sprint3) StderrLine: {'line': b'   79 |     void publishCylinderMarker(float x, float y, \x1b[01;35m\x1b[Kfloat z\x1b[m\x1b[K)\n'}
+[6.779743] (sprint3) StderrLine: {'line': b'      |                                                  \x1b[01;35m\x1b[K~~~~~~^\x1b[m\x1b[K\n'}
+[6.873942] (-) TimerEvent: {}
+[6.974392] (-) TimerEvent: {}
+[7.074870] (-) TimerEvent: {}
+[7.175373] (-) TimerEvent: {}
+[7.275844] (-) TimerEvent: {}
+[7.376338] (-) TimerEvent: {}
+[7.476809] (-) TimerEvent: {}
+[7.577357] (-) TimerEvent: {}
+[7.677857] (-) TimerEvent: {}
+[7.778329] (-) TimerEvent: {}
+[7.878744] (-) TimerEvent: {}
+[7.979215] (-) TimerEvent: {}
+[8.079741] (-) TimerEvent: {}
+[8.180251] (-) TimerEvent: {}
+[8.280706] (-) TimerEvent: {}
+[8.381185] (-) TimerEvent: {}
+[8.481713] (-) TimerEvent: {}
+[8.582232] (-) TimerEvent: {}
+[8.682760] (-) TimerEvent: {}
+[8.783268] (-) TimerEvent: {}
+[8.883813] (-) TimerEvent: {}
+[8.984344] (-) TimerEvent: {}
+[9.084835] (-) TimerEvent: {}
+[9.185363] (-) TimerEvent: {}
+[9.285805] (-) TimerEvent: {}
+[9.386288] (-) TimerEvent: {}
+[9.486831] (-) TimerEvent: {}
+[9.587359] (-) TimerEvent: {}
+[9.687858] (-) TimerEvent: {}
+[9.788402] (-) TimerEvent: {}
+[9.888906] (-) TimerEvent: {}
+[9.989461] (-) TimerEvent: {}
+[10.089943] (-) TimerEvent: {}
+[10.190422] (-) TimerEvent: {}
+[10.290898] (-) TimerEvent: {}
+[10.391338] (-) TimerEvent: {}
+[10.491755] (-) TimerEvent: {}
+[10.592231] (-) TimerEvent: {}
+[10.692753] (-) TimerEvent: {}
+[10.793245] (-) TimerEvent: {}
+[10.893682] (-) TimerEvent: {}
+[10.994144] (-) TimerEvent: {}
+[11.094630] (-) TimerEvent: {}
+[11.195110] (-) TimerEvent: {}
+[11.295612] (-) TimerEvent: {}
+[11.396040] (-) TimerEvent: {}
+[11.496522] (-) TimerEvent: {}
+[11.597019] (-) TimerEvent: {}
+[11.697489] (-) TimerEvent: {}
+[11.797994] (-) TimerEvent: {}
+[11.898395] (-) TimerEvent: {}
+[11.998806] (-) TimerEvent: {}
+[12.099253] (-) TimerEvent: {}
+[12.199724] (-) TimerEvent: {}
+[12.300210] (-) TimerEvent: {}
+[12.400742] (-) TimerEvent: {}
+[12.501205] (-) TimerEvent: {}
+[12.601689] (-) TimerEvent: {}
+[12.702161] (-) TimerEvent: {}
+[12.802647] (-) TimerEvent: {}
+[12.903133] (-) TimerEvent: {}
+[13.003645] (-) TimerEvent: {}
+[13.104076] (-) TimerEvent: {}
+[13.204513] (-) TimerEvent: {}
+[13.304990] (-) TimerEvent: {}
+[13.405461] (-) TimerEvent: {}
+[13.505934] (-) TimerEvent: {}
+[13.606409] (-) TimerEvent: {}
+[13.706859] (-) TimerEvent: {}
+[13.807294] (-) TimerEvent: {}
+[13.907787] (-) TimerEvent: {}
+[14.008247] (-) TimerEvent: {}
+[14.108742] (-) TimerEvent: {}
+[14.209223] (-) TimerEvent: {}
+[14.309741] (-) TimerEvent: {}
+[14.410219] (-) TimerEvent: {}
+[14.510705] (-) TimerEvent: {}
+[14.611168] (-) TimerEvent: {}
+[14.711618] (-) TimerEvent: {}
+[14.812093] (-) TimerEvent: {}
+[14.912627] (-) TimerEvent: {}
+[15.013089] (-) TimerEvent: {}
+[15.113521] (-) TimerEvent: {}
+[15.213974] (-) TimerEvent: {}
+[15.314441] (-) TimerEvent: {}
+[15.414901] (-) TimerEvent: {}
+[15.515385] (-) TimerEvent: {}
+[15.615766] (-) TimerEvent: {}
+[15.716199] (-) TimerEvent: {}
+[15.816685] (-) TimerEvent: {}
+[15.917166] (-) TimerEvent: {}
+[16.017603] (-) TimerEvent: {}
+[16.103867] (sprint3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cylinder_detection_node\x1b[0m\n'}
+[16.117697] (-) TimerEvent: {}
+[16.218098] (-) TimerEvent: {}
+[16.318671] (-) TimerEvent: {}
+[16.419381] (-) TimerEvent: {}
+[16.519821] (-) TimerEvent: {}
+[16.620211] (-) TimerEvent: {}
+[16.720680] (-) TimerEvent: {}
+[16.821121] (-) TimerEvent: {}
+[16.921622] (-) TimerEvent: {}
+[17.022098] (-) TimerEvent: {}
+[17.122597] (-) TimerEvent: {}
+[17.203677] (sprint3) StdoutLine: {'line': b'[100%] Built target cylinder_detection_node\n'}
+[17.218150] (sprint3) CommandEnded: {'returncode': 0}
+[17.222663] (-) TimerEvent: {}
+[17.265505] (sprint3) JobProgress: {'identifier': 'sprint3', 'progress': 'install'}
+[17.277218] (sprint3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student/ros2_ws/build/sprint3'], 'cwd': '/home/student/ros2_ws/build/sprint3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '2084'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/rtabmap_slam/lib:/home/student/ros2_ws/install/rtabmap_odom/lib:/home/student/ros2_ws/install/rtabmap_util/lib:/home/student/ros2_ws/install/rtabmap_sync/lib:/home/student/ros2_ws/install/rtabmap_rviz_plugins/lib:/home/student/ros2_ws/install/rtabmap_conversions/lib:/home/student/ros2_ws/install/rtabmap_msgs/lib:/home/student/ros2_ws/install/rtabmap/lib:/home/student/ros2_ws/install/robot_localization/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2208'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/student/ros2_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/student/ros2_ws/install/rtabmap/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/home/student/ros2_ws/install/rtabmap/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/2183,unix/labMGJSX0:/tmp/.ICE-unix/2183'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8b10c711_3b2f_40ea_a00b_eb8829ee3231'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.87'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/search_rescue_package:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/sprint3:/home/student/ros2_ws/install/rtabmap_ros:/home/student/ros2_ws/install/rtabmap_launch:/home/student/ros2_ws/install/rtabmap_examples:/home/student/ros2_ws/install/rtabmap_demos:/home/student/ros2_ws/install/rtabmap_viz:/home/student/ros2_ws/install/rtabmap_slam:/home/student/ros2_ws/install/rtabmap_odom:/home/student/ros2_ws/install/rtabmap_util:/home/student/ros2_ws/install/rtabmap_sync:/home/student/ros2_ws/install/rtabmap_rviz_plugins:/home/student/ros2_ws/install/rtabmap_python:/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/my_worlds_pkg:/home/student/ros2_ws/install/my_opencv_demo:/home/student/ros2_ws/install/labs:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/build/sprint3'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:/home/student/ros2_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/search_rescue_package:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/sprint3:/home/student/ros2_ws/install/rtabmap_ros:/home/student/ros2_ws/install/rtabmap_launch:/home/student/ros2_ws/install/rtabmap_examples:/home/student/ros2_ws/install/rtabmap_demos:/home/student/ros2_ws/install/rtabmap_viz:/home/student/ros2_ws/install/rtabmap_slam:/home/student/ros2_ws/install/rtabmap_odom:/home/student/ros2_ws/install/rtabmap_util:/home/student/ros2_ws/install/rtabmap_sync:/home/student/ros2_ws/install/rtabmap_rviz_plugins:/home/student/ros2_ws/install/rtabmap_conversions:/home/student/ros2_ws/install/rtabmap_msgs:/home/student/ros2_ws/install/rtabmap:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/my_worlds_pkg:/home/student/ros2_ws/install/my_opencv_demo:/home/student/ros2_ws/install/labs:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble')]), 'shell': False}
+[17.286693] (sprint3) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[17.286928] (sprint3) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/sprint3/lib/sprint3/map_overlay_node\n'}
+[17.287261] (sprint3) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/install/sprint3/lib/sprint3/cylinder_detection_node\n'}
+[17.288908] (sprint3) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/install/sprint3/lib/sprint3/cylinder_detection_node" to ""\n'}
+[17.289131] (sprint3) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/package_run_dependencies/sprint3\n'}
+[17.289266] (sprint3) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/parent_prefix_path/sprint3\n'}
+[17.289355] (sprint3) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/ament_prefix_path.sh\n'}
+[17.289422] (sprint3) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/ament_prefix_path.dsv\n'}
+[17.289555] (sprint3) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/path.sh\n'}
+[17.289689] (sprint3) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/environment/path.dsv\n'}
+[17.289788] (sprint3) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.bash\n'}
+[17.289901] (sprint3) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.sh\n'}
+[17.290013] (sprint3) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.zsh\n'}
+[17.290076] (sprint3) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/local_setup.dsv\n'}
+[17.290170] (sprint3) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/install/sprint3/share/sprint3/package.dsv\n'}
+[17.290339] (sprint3) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/sprint3/share/ament_index/resource_index/packages/sprint3\n'}
+[17.290463] (sprint3) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/cmake/sprint3Config.cmake\n'}
+[17.290591] (sprint3) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/cmake/sprint3Config-version.cmake\n'}
+[17.290676] (sprint3) StdoutLine: {'line': b'-- Up-to-date: /home/student/ros2_ws/install/sprint3/share/sprint3/package.xml\n'}
+[17.291909] (sprint3) CommandEnded: {'returncode': 0}
+[17.322758] (-) TimerEvent: {}
+[17.355261] (sprint3) JobEnded: {'identifier': 'sprint3', 'rc': 0}
+[17.356045] (-) EventReactorShutdown: {}

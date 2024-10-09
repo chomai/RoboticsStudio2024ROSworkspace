@@ -1,0 +1,15 @@
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/uninstall.dir
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/rtabmap_sync_uninstall.dir
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/rtabmap_sync.dir
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/rtabmap_sync_plugins.dir
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/rtabmap_rgbd_sync.dir
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/rtabmap_rgbdx_sync.dir
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/rtabmap_stereo_sync.dir
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/rtabmap_rgb_sync.dir
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/test.dir
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/edit_cache.dir
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/rebuild_cache.dir
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/list_install_components.dir
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/install.dir
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/install/local.dir
+/home/student/ros2_ws/build/rtabmap_sync/CMakeFiles/install/strip.dir

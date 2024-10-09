@@ -1,0 +1,38 @@
+[0.033s] Invoking command in '/home/student/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/my_opencv_demo
+[0.129s] [35m[1mConsolidate compiler generated dependencies of target scan_to_image_node[0m
+[0.133s] [35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_node[0m
+[0.183s] [ 20%] Built target minimal_opencv_ros2_node
+[0.189s] [ 40%] Built target scan_to_image_node
+[0.210s] [35m[1mConsolidate compiler generated dependencies of target scan_matching_localizer[0m
+[0.212s] [35m[1mConsolidate compiler generated dependencies of target simple_localizer_node[0m
+[0.249s] [ 60%] Built target scan_matching_localizer
+[0.254s] [ 80%] Built target simple_localizer_node
+[0.270s] [35m[1mConsolidate compiler generated dependencies of target map_laser_matching_node[0m
+[0.306s] [100%] Built target map_laser_matching_node
+[0.330s] Invoked command in '/home/student/ros2_ws/build/my_opencv_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/my_opencv_demo
+[0.422s] Invoking command in '/home/student/ros2_ws/build/my_opencv_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/my_opencv_demo
+[0.479s] -- Install configuration: "Release"
+[0.479s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/lib/my_opencv_demo/minimal_opencv_ros2_node
+[0.480s] -- Set runtime path of "/home/student/ros2_ws/install/my_opencv_demo/lib/my_opencv_demo/minimal_opencv_ros2_node" to ""
+[0.480s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/lib/my_opencv_demo/scan_to_image_node
+[0.480s] -- Set runtime path of "/home/student/ros2_ws/install/my_opencv_demo/lib/my_opencv_demo/scan_to_image_node" to ""
+[0.480s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/lib/my_opencv_demo/scan_matching_localizer
+[0.480s] -- Set runtime path of "/home/student/ros2_ws/install/my_opencv_demo/lib/my_opencv_demo/scan_matching_localizer" to ""
+[0.480s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/lib/my_opencv_demo/map_laser_matching_node
+[0.480s] -- Set runtime path of "/home/student/ros2_ws/install/my_opencv_demo/lib/my_opencv_demo/map_laser_matching_node" to ""
+[0.480s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/ament_index/resource_index/package_run_dependencies/my_opencv_demo
+[0.480s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/ament_index/resource_index/parent_prefix_path/my_opencv_demo
+[0.480s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/environment/ament_prefix_path.sh
+[0.480s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/environment/ament_prefix_path.dsv
+[0.481s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/environment/path.sh
+[0.481s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/environment/path.dsv
+[0.481s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/local_setup.bash
+[0.481s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/local_setup.sh
+[0.481s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/local_setup.zsh
+[0.481s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/local_setup.dsv
+[0.481s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/package.dsv
+[0.481s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/ament_index/resource_index/packages/my_opencv_demo
+[0.481s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/cmake/my_opencv_demoConfig.cmake
+[0.482s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/cmake/my_opencv_demoConfig-version.cmake
+[0.482s] -- Installing: /home/student/ros2_ws/install/my_opencv_demo/share/my_opencv_demo/package.xml
+[0.486s] Invoked command in '/home/student/ros2_ws/build/my_opencv_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/my_opencv_demo

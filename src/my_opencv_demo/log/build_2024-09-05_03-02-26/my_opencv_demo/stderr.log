@@ -1,0 +1,36 @@
+[01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_processor.cpp:[m[K In member function ‘[01m[Kvoid ScanProcessor::scan_callback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_processor.cpp:40:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   40 |     if (index_start >= 0 && [01;35m[Kindex_start < msg->ranges.size()[m[K &&
+      |                             [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_processor.cpp:41:37:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   41 |         index_end >= 0 && [01;35m[Kindex_end < msg->ranges.size()[m[K &&
+      |                           [01;35m[K~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_processor.cpp:42:45:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<float>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   42 |         index_desired >= 0 && [01;35m[Kindex_desired < msg->ranges.size()[m[K) {
+      |                               [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:[m[K In member function ‘[01m[Kvoid ScanToImageNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_image_[m[K’ was not declared in this scope; did you mean ‘[01m[Kfirst_image_[m[K’?
+   28 |         [01;31m[Kcurrent_image_[m[K = laserScanToMat(msg);
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+      |         [32m[Kfirst_image_[m[K
+[01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:30:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_scan_received_[m[K’ was not declared in this scope
+   30 |         if ([01;31m[Kfirst_scan_received_[m[K) {
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprevious_image_[m[K’ was not declared in this scope
+   34 |         [01;31m[Kprevious_image_[m[K = current_image_.clone();
+      |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_scan_received_[m[K’ was not declared in this scope
+   35 |         [01;31m[Kfirst_scan_received_[m[K = true;
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:[m[K In member function ‘[01m[Kvoid ScanToImageNode::calculateYawChange()[m[K’:
+[01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:79:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kprevious_image_[m[K’ was not declared in this scope
+   79 |         detectAndMatchFeatures([01;31m[Kprevious_image_[m[K, current_image_, srcPoints, dstPoints);
+      |                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:79:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_image_[m[K’ was not declared in this scope; did you mean ‘[01m[Kfirst_image_[m[K’?
+   79 |         detectAndMatchFeatures(previous_image_, [01;31m[Kcurrent_image_[m[K, srcPoints, dstPoints);
+      |                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                                                 [32m[Kfirst_image_[m[K
+gmake[2]: *** [CMakeFiles/scan_to_image_node.dir/build.make:76: CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/scan_to_image_node.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

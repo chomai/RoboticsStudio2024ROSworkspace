@@ -1,0 +1,14 @@
+[0.025s] Invoking command in '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo -- -j8 -l8
+[0.097s] [35m[1mConsolidate compiler generated dependencies of target scan_to_image_node[0m
+[0.118s] [ 25%] Built target scan_processor
+[0.123s] [ 50%] Built target image_processor
+[0.128s] [ 75%] Built target minimal_opencv_ros2_node
+[0.136s] [ 87%] [32mBuilding CXX object CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o[0m
+[4.541s] [01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:[m[K In member function ‘[01m[Kvoid ScanToImageNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.542s] [01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_scan_received_[m[K’ was not declared in this scope
+[4.542s]    35 |         [01;31m[Kfirst_scan_received_[m[K = true;
+[4.542s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[8.465s] gmake[2]: *** [CMakeFiles/scan_to_image_node.dir/build.make:76: CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o] Error 1
+[8.465s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/scan_to_image_node.dir/all] Error 2
+[8.466s] gmake: *** [Makefile:146: all] Error 2
+[8.469s] Invoked command in '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo -- -j8 -l8

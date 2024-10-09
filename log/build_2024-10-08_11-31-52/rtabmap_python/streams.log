@@ -1,0 +1,20 @@
+[1.412s] Invoking command in '/home/student/ros2_ws/src/rtabmap_ros/rtabmap_python': PYTHONPATH=/home/student/ros2_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rtabmap_python build --build-base /home/student/ros2_ws/build/rtabmap_python/build install --record /home/student/ros2_ws/build/rtabmap_python/install.log --single-version-externally-managed install_data
+[1.865s] running egg_info
+[1.866s] writing ../../../build/rtabmap_python/rtabmap_python.egg-info/PKG-INFO
+[1.867s] writing dependency_links to ../../../build/rtabmap_python/rtabmap_python.egg-info/dependency_links.txt
+[1.867s] writing entry points to ../../../build/rtabmap_python/rtabmap_python.egg-info/entry_points.txt
+[1.867s] writing requirements to ../../../build/rtabmap_python/rtabmap_python.egg-info/requires.txt
+[1.868s] writing top-level names to ../../../build/rtabmap_python/rtabmap_python.egg-info/top_level.txt
+[1.870s] reading manifest file '../../../build/rtabmap_python/rtabmap_python.egg-info/SOURCES.txt'
+[1.872s] writing manifest file '../../../build/rtabmap_python/rtabmap_python.egg-info/SOURCES.txt'
+[1.872s] running build
+[1.872s] running build_py
+[1.873s] running install
+[1.873s] running install_lib
+[1.875s] running install_data
+[1.877s] running install_egg_info
+[1.882s] removing '/home/student/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python-0.1.0-py3.10.egg-info' (and everything under it)
+[1.883s] Copying ../../../build/rtabmap_python/rtabmap_python.egg-info to /home/student/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap_python-0.1.0-py3.10.egg-info
+[1.883s] running install_scripts
+[1.925s] writing list of installed files to '/home/student/ros2_ws/build/rtabmap_python/install.log'
+[1.968s] Invoked command in '/home/student/ros2_ws/src/rtabmap_ros/rtabmap_python' returned '0': PYTHONPATH=/home/student/ros2_ws/build/rtabmap_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/student/ros2_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/rtabmap_python build --build-base /home/student/ros2_ws/build/rtabmap_python/build install --record /home/student/ros2_ws/build/rtabmap_python/install.log --single-version-externally-managed install_data

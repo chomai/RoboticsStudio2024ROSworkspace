@@ -1,0 +1,18 @@
+[0.036s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8
+[0.243s] [ 50%] Built target map_overlay_node
+[0.309s] [35m[1mConsolidate compiler generated dependencies of target cylinder_detection_node[0m
+[0.394s] [ 75%] [32mBuilding CXX object CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o[0m
+[6.763s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In constructor ‘[01m[KCylinderDetectionNode::CylinderDetectionNode()[m[K’:
+[6.763s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmap_sub_[m[K’?
+[6.763s]    17 |         [01;31m[Kmap_pub_[m[K = this->create_publisher<nav_msgs::msg::OccupancyGrid>("updated_map", 10);
+[6.764s]       |         [01;31m[K^~~~~~~~[m[K
+[6.764s]       |         [32m[Kmap_sub_[m[K
+[6.818s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::updateMapWithCylinder(float, float)[m[K’:
+[6.819s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:74:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kmap_pub_[m[K’ was not declared in this scope; did you mean ‘[01m[Kmap_sub_[m[K’?
+[6.819s]    74 |     [01;31m[Kmap_pub_[m[K->publish(map_data_);
+[6.819s]       |     [01;31m[K^~~~~~~~[m[K
+[6.819s]       |     [32m[Kmap_sub_[m[K
+[14.931s] gmake[2]: *** [CMakeFiles/cylinder_detection_node.dir/build.make:76: CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o] Error 1
+[14.931s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cylinder_detection_node.dir/all] Error 2
+[14.932s] gmake: *** [Makefile:146: all] Error 2
+[14.937s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8

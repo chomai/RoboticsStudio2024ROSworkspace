@@ -1,0 +1,35 @@
+[0.048s] Invoking command in '/home/student/ros2_ws/build/rtabmap_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/rtabmap_msgs
+[0.616s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_generator_c[0m
+[0.616s] [  0%] Built target rtabmap_msgs__cpp
+[0.616s] [ 12%] Built target rtabmap_msgs__rosidl_generator_c
+[0.617s] [ 12%] Built target ament_cmake_python_copy_rtabmap_msgs
+[0.617s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_cpp[0m
+[0.617s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.617s] [ 24%] Built target rtabmap_msgs__rosidl_typesupport_cpp
+[0.617s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_introspection_c[0m
+[0.617s] [ 37%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_c
+[0.617s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_c[0m
+[0.618s] [ 50%] Built target rtabmap_msgs__rosidl_typesupport_introspection_c
+[0.618s] [ 63%] Built target rtabmap_msgs__rosidl_typesupport_c
+[0.618s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.618s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.641s] [ 83%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_cpp
+[0.641s] [ 88%] Built target rtabmap_msgs__rosidl_typesupport_introspection_cpp
+[0.667s] [ 88%] Built target rtabmap_msgs
+[0.711s] [ 88%] Built target rtabmap_msgs__py
+[0.795s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_generator_py[0m
+[0.891s] [100%] Built target rtabmap_msgs__rosidl_generator_py
+[0.936s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.965s] [100%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.994s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.030s] [100%] Built target rtabmap_msgs__rosidl_typesupport_introspection_c__pyext
+[1.055s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_c__pyext[0m
+[1.078s] [100%] Built target rtabmap_msgs__rosidl_typesupport_c__pyext
+[1.143s] running egg_info
+[1.144s] writing rtabmap_msgs.egg-info/PKG-INFO
+[1.145s] writing dependency_links to rtabmap_msgs.egg-info/dependency_links.txt
+[1.145s] writing top-level names to rtabmap_msgs.egg-info/top_level.txt
+[1.150s] reading manifest file 'rtabmap_msgs.egg-info/SOURCES.txt'
+[1.153s] writing manifest file 'rtabmap_msgs.egg-info/SOURCES.txt'
+[1.196s] [100%] Built target ament_cmake_python_build_rtabmap_msgs_egg
+[1.428s] Invoked command in '/home/student/ros2_ws/build/rtabmap_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/rtabmap_msgs

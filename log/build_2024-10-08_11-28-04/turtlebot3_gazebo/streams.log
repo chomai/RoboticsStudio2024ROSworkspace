@@ -1,0 +1,99 @@
+[0.076s] Invoking command in '/home/student/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/turtlebot3_gazebo
+[0.295s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.724s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.724s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.724s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.724s]   problems in calling code that expects `find_package` result variables
+[0.724s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.724s] Call Stack (most recent call first):
+[0.724s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.725s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.725s]   CMakeLists.txt:23 (find_package)
+[0.725s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.725s] [0m
+[0.922s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.266s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.358s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.462s] -- Searching for dependencies of ignition-math6
+[1.470s] -- Looking for OGRE...
+[1.513s] -- Found Ogre Ghadamon (1.9.0)
+[1.516s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.527s] -- Looking for OGRE_Paging...
+[1.528s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.528s] -- Looking for OGRE_Terrain...
+[1.528s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.528s] -- Looking for OGRE_Property...
+[1.528s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.528s] -- Looking for OGRE_RTShaderSystem...
+[1.529s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.529s] -- Looking for OGRE_Volume...
+[1.529s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.529s] -- Looking for OGRE_Overlay...
+[1.529s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.684s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.708s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.709s] -- Searching for dependencies of ignition-transport8
+[1.735s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.756s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.761s] -- Checking for module 'libzmq >= 4'
+[1.839s] --   Found libzmq , version 4.3.4
+[1.896s] -- Checking for module 'uuid'
+[1.916s] --   Found uuid, version 2.37.2
+[1.960s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.960s] -- Searching for dependencies of ignition-msgs5
+[1.984s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.991s] -- Checking for module 'tinyxml2'
+[2.019s] --   Found tinyxml2, version 9.0.0
+[2.071s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.076s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.077s] -- Searching for dependencies of ignition-common3
+[2.077s] -- Looking for dlfcn.h - found
+[2.077s] -- Looking for libdl - found
+[2.115s] -- Searching for <ignition-common3> component [graphics]
+[2.116s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.116s] -- Searching for dependencies of ignition-common3-graphics
+[2.117s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.127s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.127s] -- Searching for dependencies of ignition-fuel_tools4
+[2.202s] -- Checking for module 'jsoncpp'
+[2.219s] --   Found jsoncpp, version 1.9.5
+[2.265s] -- Checking for module 'libzip'
+[2.319s] --   Found libzip, version 1.7.3
+[2.353s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.354s] -- Looking for ignition-math6 -- found version 6.15.1
+[2.354s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.365s] -- Found gazebo_ros_pkgs: 3.7.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[2.365s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.389s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.392s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.399s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.411s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.430s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.504s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.529s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[2.724s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.755s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.074s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.236s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.269s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[3.442s] -- Configuring done
+[3.850s] -- Generating done
+[3.859s] -- Build files have been written to: /home/student/ros2_ws/build/turtlebot3_gazebo
+[3.934s] Invoked command in '/home/student/ros2_ws/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/turtlebot3_gazebo
+[3.935s] Invoking command in '/home/student/ros2_ws/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/turtlebot3_gazebo
+[4.066s] [35m[1mConsolidate compiler generated dependencies of target turtlebot3_drive[0m
+[4.080s] [35m[1mConsolidate compiler generated dependencies of target obstacle1[0m
+[4.237s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot3_drive.dir/src/turtlebot3_drive.cpp.o[0m
+[4.490s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle1.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle1.cc.o[0m
+[38.507s] [ 37%] [32m[1mLinking CXX executable turtlebot3_drive[0m
+[39.246s] [ 37%] Built target turtlebot3_drive
+[39.310s] [35m[1mConsolidate compiler generated dependencies of target obstacle2[0m
+[39.456s] [ 50%] [32mBuilding CXX object CMakeFiles/obstacle2.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacle2.cc.o[0m
+[43.833s] [ 62%] [32m[1mLinking CXX shared library libobstacle1.so[0m
+[44.864s] [ 62%] Built target obstacle1
+[44.904s] [35m[1mConsolidate compiler generated dependencies of target obstacles[0m
+[45.088s] [ 75%] [32mBuilding CXX object CMakeFiles/obstacles.dir/models/turtlebot3_dqn_world/obstacle_plugin/obstacles.cc.o[0m
+[68.958s] [ 87%] [32m[1mLinking CXX shared library libobstacle2.so[0m
+[69.444s] [ 87%] Built target obstacle2
+[71.230s] [100%] [32m[1mLinking CXX shared library libobstacles.so[0m
+[71.532s] [100%] Built target obstacles

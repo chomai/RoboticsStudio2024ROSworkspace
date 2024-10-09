@@ -1,0 +1,12 @@
+[0.018s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8
+[4.603s] [35m[1mConsolidate compiler generated dependencies of target map_overlay_node[0m
+[4.604s] [ 33%] Built target map_overlay_node
+[4.606s] [ 50%] [32mBuilding CXX object CMakeFiles/cylinder_adder_node.dir/src/cylinder_adder_node.cpp.o[0m
+[4.608s] [01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_adder_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_ros/gazebo_ros.hpp: No such file or directory
+[4.608s]     3 | #include [01;31m[K"gazebo_ros/gazebo_ros.hpp"[m[K
+[4.608s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.608s] compilation terminated.
+[4.609s] gmake[2]: *** [CMakeFiles/cylinder_adder_node.dir/build.make:76: CMakeFiles/cylinder_adder_node.dir/src/cylinder_adder_node.cpp.o] Error 1
+[4.609s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/cylinder_adder_node.dir/all] Error 2
+[4.611s] gmake: *** [Makefile:146: all] Error 2
+[4.641s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8

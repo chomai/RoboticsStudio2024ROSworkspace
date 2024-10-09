@@ -1,0 +1,39 @@
+[0.018s] Invoking command in '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo -- -j8 -l8
+[0.089s] [35m[1mConsolidate compiler generated dependencies of target scan_processor[0m
+[0.091s] [35m[1mConsolidate compiler generated dependencies of target minimal_opencv_ros2_node[0m
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target image_processor[0m
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target scan_to_image_node[0m
+[0.134s] [ 25%] Built target scan_processor
+[0.139s] [ 62%] [32mBuilding CXX object CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o[0m
+[0.139s] [ 62%] Built target minimal_opencv_ros2_node
+[0.139s] [ 87%] Built target image_processor
+[4.223s] [01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:[m[K In constructor ‘[01m[KScanToImageNode::ScanToImageNode()[m[K’:
+[4.223s] [01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:9:104:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KScanToImageNode[m[K’ does not have any field named ‘[01m[Kfirst_scan_received_[m[K’
+[4.223s]     9 |     ScanToImageNode() : Node("scan_to_image_node"), angle_difference_(0.0), relative_orientaion_(0.0), [01;31m[Kfirst_scan_received_[m[K(false) {
+[4.223s]       |                                                                                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.250s] [01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:[m[K In member function ‘[01m[Kvoid ScanToImageNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[4.251s] [01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_image_[m[K’ was not declared in this scope; did you mean ‘[01m[Kfirst_image_[m[K’?
+[4.251s]    28 |         [01;31m[Kcurrent_image_[m[K = laserScanToMat(msg);
+[4.251s]       |         [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.251s]       |         [32m[Kfirst_image_[m[K
+[4.266s] [01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:30:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_scan_received_[m[K’ was not declared in this scope
+[4.266s]    30 |         if ([01;31m[Kfirst_scan_received_[m[K) {
+[4.266s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.282s] [01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kprevious_image_[m[K’ was not declared in this scope
+[4.282s]    34 |         [01;31m[Kprevious_image_[m[K = current_image_.clone();
+[4.282s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.297s] [01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:35:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfirst_scan_received_[m[K’ was not declared in this scope
+[4.297s]    35 |         [01;31m[Kfirst_scan_received_[m[K = true;
+[4.297s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.321s] [01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:[m[K In member function ‘[01m[Kvoid ScanToImageNode::calculateYawChange()[m[K’:
+[4.321s] [01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:79:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kprevious_image_[m[K’ was not declared in this scope
+[4.321s]    79 |         detectAndMatchFeatures([01;31m[Kprevious_image_[m[K, current_image_, srcPoints, dstPoints);
+[4.321s]       |                                [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.331s] [01m[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:79:49:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_image_[m[K’ was not declared in this scope; did you mean ‘[01m[Kfirst_image_[m[K’?
+[4.332s]    79 |         detectAndMatchFeatures(previous_image_, [01;31m[Kcurrent_image_[m[K, srcPoints, dstPoints);
+[4.332s]       |                                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.332s]       |                                                 [32m[Kfirst_image_[m[K
+[8.236s] gmake[2]: *** [CMakeFiles/scan_to_image_node.dir/build.make:76: CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o] Error 1
+[8.237s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/scan_to_image_node.dir/all] Error 2
+[8.237s] gmake: *** [Makefile:146: all] Error 2
+[8.240s] Invoked command in '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo -- -j8 -l8

@@ -1,0 +1,110 @@
+[0.000000] (-) TimerEvent: {}
+[0.000457] (my_opencv_demo) JobQueued: {'identifier': 'my_opencv_demo', 'dependencies': OrderedDict()}
+[0.000524] (my_opencv_demo) JobStarted: {'identifier': 'my_opencv_demo'}
+[0.019600] (my_opencv_demo) JobProgress: {'identifier': 'my_opencv_demo', 'progress': 'cmake'}
+[0.019801] (my_opencv_demo) JobProgress: {'identifier': 'my_opencv_demo', 'progress': 'build'}
+[0.019848] (my_opencv_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '2062'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/robot_localization/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws/src/my_opencv_demo/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2174'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/2151,unix/labMGJSX0:/tmp/.ICE-unix/2151'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c1a35fe_6597_49e1_9815_0823651096aa'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/my_opencv_demo:/home/student/ros2_ws/install/labs:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/my_opencv_demo:/home/student/ros2_ws/install/labs:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.097636] (my_opencv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target scan_to_image_node\x1b[0m\n'}
+[0.099052] (-) TimerEvent: {}
+[0.116649] (my_opencv_demo) StdoutLine: {'line': b'[ 25%] Built target image_processor\n'}
+[0.122396] (my_opencv_demo) StdoutLine: {'line': b'[ 50%] Built target minimal_opencv_ros2_node\n'}
+[0.124929] (my_opencv_demo) StdoutLine: {'line': b'[ 75%] Built target scan_processor\n'}
+[0.145539] (my_opencv_demo) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o\x1b[0m\n'}
+[0.199258] (-) TimerEvent: {}
+[0.299662] (-) TimerEvent: {}
+[0.400093] (-) TimerEvent: {}
+[0.500463] (-) TimerEvent: {}
+[0.600853] (-) TimerEvent: {}
+[0.701278] (-) TimerEvent: {}
+[0.801651] (-) TimerEvent: {}
+[0.902012] (-) TimerEvent: {}
+[1.002458] (-) TimerEvent: {}
+[1.102856] (-) TimerEvent: {}
+[1.203504] (-) TimerEvent: {}
+[1.304000] (-) TimerEvent: {}
+[1.404454] (-) TimerEvent: {}
+[1.504953] (-) TimerEvent: {}
+[1.605444] (-) TimerEvent: {}
+[1.705941] (-) TimerEvent: {}
+[1.806474] (-) TimerEvent: {}
+[1.907023] (-) TimerEvent: {}
+[2.007489] (-) TimerEvent: {}
+[2.107976] (-) TimerEvent: {}
+[2.208458] (-) TimerEvent: {}
+[2.308931] (-) TimerEvent: {}
+[2.409389] (-) TimerEvent: {}
+[2.509809] (-) TimerEvent: {}
+[2.610214] (-) TimerEvent: {}
+[2.710871] (-) TimerEvent: {}
+[2.811280] (-) TimerEvent: {}
+[2.911772] (-) TimerEvent: {}
+[3.012150] (-) TimerEvent: {}
+[3.112580] (-) TimerEvent: {}
+[3.213005] (-) TimerEvent: {}
+[3.313483] (-) TimerEvent: {}
+[3.413823] (-) TimerEvent: {}
+[3.514190] (-) TimerEvent: {}
+[3.614559] (-) TimerEvent: {}
+[3.714938] (-) TimerEvent: {}
+[3.815384] (-) TimerEvent: {}
+[3.915786] (-) TimerEvent: {}
+[4.016226] (-) TimerEvent: {}
+[4.116592] (-) TimerEvent: {}
+[4.216956] (-) TimerEvent: {}
+[4.293964] (my_opencv_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ScanToImageNode::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.294241] (my_opencv_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:34:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprevious_image_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.294329] (my_opencv_demo) StderrLine: {'line': b'   34 |         \x1b[01;31m\x1b[Kprevious_image_\x1b[m\x1b[K = current_image_.clone();\n'}
+[4.294402] (my_opencv_demo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.313406] (my_opencv_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:35:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfirst_scan_received_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.313666] (my_opencv_demo) StderrLine: {'line': b'   35 |         \x1b[01;31m\x1b[Kfirst_scan_received_\x1b[m\x1b[K = true;\n'}
+[4.313798] (my_opencv_demo) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.317058] (-) TimerEvent: {}
+[4.330105] (my_opencv_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ScanToImageNode::calculateYawChange()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.330654] (my_opencv_demo) StderrLine: {'line': b'\x1b[01m\x1b[K/home/student/ros2_ws/src/my_opencv_demo/src/scan_to_image_node.cpp:79:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kprevious_image_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.330863] (my_opencv_demo) StderrLine: {'line': b'   79 |         detectAndMatchFeatures(\x1b[01;31m\x1b[Kprevious_image_\x1b[m\x1b[K, current_image_, srcPoints, dstPoints);\n'}
+[4.330958] (my_opencv_demo) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.417193] (-) TimerEvent: {}
+[4.517567] (-) TimerEvent: {}
+[4.617948] (-) TimerEvent: {}
+[4.718298] (-) TimerEvent: {}
+[4.818781] (-) TimerEvent: {}
+[4.919289] (-) TimerEvent: {}
+[5.019677] (-) TimerEvent: {}
+[5.120111] (-) TimerEvent: {}
+[5.220604] (-) TimerEvent: {}
+[5.321152] (-) TimerEvent: {}
+[5.421674] (-) TimerEvent: {}
+[5.522207] (-) TimerEvent: {}
+[5.622622] (-) TimerEvent: {}
+[5.723048] (-) TimerEvent: {}
+[5.823463] (-) TimerEvent: {}
+[5.923869] (-) TimerEvent: {}
+[6.024466] (-) TimerEvent: {}
+[6.124826] (-) TimerEvent: {}
+[6.225190] (-) TimerEvent: {}
+[6.325602] (-) TimerEvent: {}
+[6.426060] (-) TimerEvent: {}
+[6.526408] (-) TimerEvent: {}
+[6.626797] (-) TimerEvent: {}
+[6.727179] (-) TimerEvent: {}
+[6.827568] (-) TimerEvent: {}
+[6.928022] (-) TimerEvent: {}
+[7.028378] (-) TimerEvent: {}
+[7.128848] (-) TimerEvent: {}
+[7.229223] (-) TimerEvent: {}
+[7.329600] (-) TimerEvent: {}
+[7.429993] (-) TimerEvent: {}
+[7.530361] (-) TimerEvent: {}
+[7.630745] (-) TimerEvent: {}
+[7.731119] (-) TimerEvent: {}
+[7.833787] (-) TimerEvent: {}
+[7.934168] (-) TimerEvent: {}
+[8.034574] (-) TimerEvent: {}
+[8.135024] (-) TimerEvent: {}
+[8.219779] (my_opencv_demo) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/scan_to_image_node.dir/build.make:76: CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o] Error 1\n'}
+[8.220169] (my_opencv_demo) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/scan_to_image_node.dir/all] Error 2\n'}
+[8.220403] (my_opencv_demo) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.226192] (my_opencv_demo) CommandEnded: {'returncode': 2}
+[8.235143] (-) TimerEvent: {}
+[8.304850] (my_opencv_demo) JobEnded: {'identifier': 'my_opencv_demo', 'rc': 2}
+[8.315487] (-) EventReactorShutdown: {}

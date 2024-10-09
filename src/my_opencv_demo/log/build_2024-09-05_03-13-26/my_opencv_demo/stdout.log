@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target scan_to_image_node[0m
+[ 25%] Built target scan_processor
+[ 50%] Built target minimal_opencv_ros2_node
+[ 75%] Built target image_processor
+[ 87%] [32mBuilding CXX object CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable scan_to_image_node[0m
+[100%] Built target scan_to_image_node
+-- Install configuration: ""
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/minimal_opencv_ros2_node
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/image_processor
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/scan_processor
+-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/scan_to_image_node
+-- Set runtime path of "/home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/scan_to_image_node" to ""
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/ament_index/resource_index/package_run_dependencies/my_opencv_demo
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/ament_index/resource_index/parent_prefix_path/my_opencv_demo
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/environment/ament_prefix_path.sh
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/environment/path.sh
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/environment/path.dsv
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/local_setup.bash
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/local_setup.sh
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/local_setup.zsh
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/local_setup.dsv
+-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/package.dsv
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/ament_index/resource_index/packages/my_opencv_demo
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/cmake/my_opencv_demoConfig.cmake
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/cmake/my_opencv_demoConfig-version.cmake
+-- Up-to-date: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/package.xml

@@ -1,0 +1,29 @@
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::publishCylinderMarker(float, float, float)[m[K’:
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:82:56:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   82 |     void publishCylinderMarker(float x, float y, [01;35m[Kfloat z[m[K)
+      |                                                  [01;35m[K~~~~~~^[m[K
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:[m[K In member function ‘[01m[Kvoid CylinderDetectionNode::drawCylinderOnMap(const string&, const string&, float, float)[m[K’:
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:141:16:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kdouble origin_x[m[K’
+  141 |         double [01;31m[Korigin_x[m[K = -11.3;  // From map.yaml
+      |                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:126:15:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kfloat origin_x[m[K’
+  126 |         float [01;36m[Korigin_x[m[K = -11.3; // From your YAML
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:142:16:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kdouble origin_y[m[K’
+  142 |         double [01;31m[Korigin_y[m[K = -5.4;   // From map.yaml
+      |                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:127:15:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kfloat origin_y[m[K’
+  127 |         float [01;36m[Korigin_y[m[K = -5.4;  // From your YAML
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:132:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcylinder_pixel_x[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  132 |         int [01;35m[Kcylinder_pixel_x[m[K = static_cast<int>((cylinder_x - origin_x) / map_resolution);
+      |             [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:136:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kradius[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  136 |         int [01;35m[Kradius[m[K = static_cast<int>(0.5 / map_resolution);; // Adjust radius as needed
+      |             [01;35m[K^~~~~~[m[K
+[01m[K/home/student/ros2_ws/src/sprint3/src/cylinder_detection_node.cpp:138:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcorrected_cylinder_pixel_y[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  138 |         int [01;35m[Kcorrected_cylinder_pixel_y[m[K = map_image.rows - cylinder_pixel_y;
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cylinder_detection_node.dir/build.make:76: CMakeFiles/cylinder_detection_node.dir/src/cylinder_detection_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/cylinder_detection_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

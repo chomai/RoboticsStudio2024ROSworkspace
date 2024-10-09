@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target scan_to_image_node[0m
+[ 25%] Built target image_processor
+[ 50%] Built target minimal_opencv_ros2_node
+[ 75%] Built target scan_processor
+[ 87%] [32mBuilding CXX object CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o[0m

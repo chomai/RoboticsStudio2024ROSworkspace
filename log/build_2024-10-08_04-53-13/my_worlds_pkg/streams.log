@@ -1,0 +1,129 @@
+[0.021s] Invoking command in '/home/student/ros2_ws/build/my_worlds_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/BlueShell/my_worlds_pkg -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/my_worlds_pkg
+[8.403s] -- The C compiler identification is GNU 11.4.0
+[8.408s] -- The CXX compiler identification is GNU 11.4.0
+[8.409s] -- Detecting C compiler ABI info
+[8.409s] -- Detecting C compiler ABI info - done
+[8.409s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.409s] -- Detecting C compile features
+[8.409s] -- Detecting C compile features - done
+[8.409s] -- Detecting CXX compiler ABI info
+[8.409s] -- Detecting CXX compiler ABI info - done
+[8.410s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[8.410s] -- Detecting CXX compile features
+[8.410s] -- Detecting CXX compile features - done
+[8.410s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.411s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.411s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[8.411s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.411s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.411s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.411s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.411s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.412s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.412s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.412s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.412s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.412s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.412s] -- Looking for pthread.h
+[8.412s] -- Looking for pthread.h - found
+[8.412s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.413s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.413s] -- Found Threads: TRUE  
+[8.413s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[8.413s] -- Checking for module 'bullet>=2.82'
+[8.413s] --   Found bullet, version 3.05
+[8.413s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[8.413s] -- Found assimp: /usr/include (found version "5.2.0") 
+[8.414s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[8.414s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[8.414s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[8.418s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.418s] -- Searching for dependencies of ignition-math6
+[8.418s] -- Looking for OGRE...
+[8.419s] -- OGRE_PREFIX_WATCH changed.
+[8.419s] -- Checking for module 'OGRE'
+[8.419s] --   Found OGRE, version 1.9.0
+[8.419s] -- Found Ogre Ghadamon (1.9.0)
+[8.419s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[8.419s] -- Looking for OGRE_Paging...
+[8.419s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[8.419s] -- Looking for OGRE_Terrain...
+[8.419s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[8.419s] -- Looking for OGRE_Property...
+[8.419s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[8.420s] -- Looking for OGRE_RTShaderSystem...
+[8.420s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[8.420s] -- Looking for OGRE_Volume...
+[8.420s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[8.420s] -- Looking for OGRE_Overlay...
+[8.420s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[8.420s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.420s] -- Looking for ignition-transport8 -- found version 8.2.1
+[8.420s] -- Searching for dependencies of ignition-transport8
+[8.420s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[8.421s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[8.421s] -- Checking for module 'libzmq >= 4'
+[8.421s] --   Found libzmq , version 4.3.4
+[8.421s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[8.421s] -- Checking for module 'uuid'
+[8.421s] --   Found uuid, version 2.37.2
+[8.421s] -- Found UUID: TRUE  
+[8.421s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.421s] -- Searching for dependencies of ignition-msgs5
+[8.421s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.421s] -- Checking for module 'tinyxml2'
+[8.422s] --   Found tinyxml2, version 9.0.0
+[8.422s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.422s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.422s] -- Searching for dependencies of ignition-common3
+[8.424s] -- Looking for dlfcn.h - found
+[8.424s] -- Looking for libdl - found
+[8.424s] -- Found DL: TRUE  
+[8.424s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[8.424s] -- Searching for <ignition-common3> component [graphics]
+[8.425s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[8.425s] -- Searching for dependencies of ignition-common3-graphics
+[8.425s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.425s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[8.425s] -- Searching for dependencies of ignition-fuel_tools4
+[8.425s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[8.425s] -- Checking for module 'jsoncpp'
+[8.425s] --   Found jsoncpp, version 1.9.5
+[8.426s] -- Found JSONCPP: TRUE  
+[8.426s] -- Checking for module 'libzip'
+[8.426s] --   Found libzip, version 1.7.3
+[8.426s] -- Found ZIP: TRUE  
+[8.426s] -- Looking for ignition-common3 -- found version 3.14.0
+[8.426s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.426s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[8.426s] -- Gazebo version: 11.10
+[8.427s] -- Checking for module 'tbb'
+[8.427s] --   Found tbb, version 2021.5.0
+[8.427s] -- Configuring done
+[8.427s] -- Generating done
+[8.427s] -- Build files have been written to: /home/student/ros2_ws/build/my_worlds_pkg
+[8.429s] Invoked command in '/home/student/ros2_ws/build/my_worlds_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake /home/student/ros2_ws/src/BlueShell/my_worlds_pkg -DCMAKE_INSTALL_PREFIX=/home/student/ros2_ws/install/my_worlds_pkg
+[8.430s] Invoking command in '/home/student/ros2_ws/build/my_worlds_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/my_worlds_pkg -- -j8 -l8
+[28.125s] Invoked command in '/home/student/ros2_ws/build/my_worlds_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/my_worlds_pkg -- -j8 -l8
+[28.164s] Invoking command in '/home/student/ros2_ws/build/my_worlds_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/my_worlds_pkg
+[28.219s] -- Install configuration: ""
+[28.220s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/worlds
+[28.220s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/worlds/maze_world.world
+[28.220s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/launch
+[28.221s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/launch/maze_world.launch.py
+[28.222s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/ament_index/resource_index/package_run_dependencies/my_worlds_pkg
+[28.222s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/ament_index/resource_index/parent_prefix_path/my_worlds_pkg
+[28.222s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/environment/ament_prefix_path.sh
+[28.222s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/environment/ament_prefix_path.dsv
+[28.223s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/environment/path.sh
+[28.223s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/environment/path.dsv
+[28.223s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/local_setup.bash
+[28.223s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/local_setup.sh
+[28.223s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/local_setup.zsh
+[28.224s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/local_setup.dsv
+[28.224s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/package.dsv
+[28.224s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/ament_index/resource_index/packages/my_worlds_pkg
+[28.224s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/cmake/my_worlds_pkgConfig.cmake
+[28.224s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/cmake/my_worlds_pkgConfig-version.cmake
+[28.225s] -- Installing: /home/student/ros2_ws/install/my_worlds_pkg/share/my_worlds_pkg/package.xml
+[28.246s] Invoked command in '/home/student/ros2_ws/build/my_worlds_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --install /home/student/ros2_ws/build/my_worlds_pkg

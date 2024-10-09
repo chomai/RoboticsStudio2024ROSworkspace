@@ -1,0 +1,186 @@
+[0.000000] (-) TimerEvent: {}
+[0.000263] (my_opencv_demo) JobQueued: {'identifier': 'my_opencv_demo', 'dependencies': OrderedDict()}
+[0.000332] (my_opencv_demo) JobStarted: {'identifier': 'my_opencv_demo'}
+[0.019052] (my_opencv_demo) JobProgress: {'identifier': 'my_opencv_demo', 'progress': 'cmake'}
+[0.019442] (my_opencv_demo) JobProgress: {'identifier': 'my_opencv_demo', 'progress': 'build'}
+[0.019539] (my_opencv_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo', '--', '-j8', '-l8'], 'cwd': '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '2062'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/robot_localization/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws/src/my_opencv_demo/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2174'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/2151,unix/labMGJSX0:/tmp/.ICE-unix/2151'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c1a35fe_6597_49e1_9815_0823651096aa'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/my_opencv_demo:/home/student/ros2_ws/install/labs:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/my_opencv_demo:/home/student/ros2_ws/install/labs:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.098516] (-) TimerEvent: {}
+[0.102853] (my_opencv_demo) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target scan_to_image_node\x1b[0m\n'}
+[0.136450] (my_opencv_demo) StdoutLine: {'line': b'[ 25%] Built target scan_processor\n'}
+[0.136858] (my_opencv_demo) StdoutLine: {'line': b'[ 50%] Built target minimal_opencv_ros2_node\n'}
+[0.140082] (my_opencv_demo) StdoutLine: {'line': b'[ 75%] Built target image_processor\n'}
+[0.148224] (my_opencv_demo) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/scan_to_image_node.dir/src/scan_to_image_node.cpp.o\x1b[0m\n'}
+[0.198654] (-) TimerEvent: {}
+[0.299134] (-) TimerEvent: {}
+[0.399547] (-) TimerEvent: {}
+[0.500010] (-) TimerEvent: {}
+[0.600503] (-) TimerEvent: {}
+[0.700883] (-) TimerEvent: {}
+[0.801329] (-) TimerEvent: {}
+[0.901741] (-) TimerEvent: {}
+[1.002199] (-) TimerEvent: {}
+[1.102679] (-) TimerEvent: {}
+[1.203113] (-) TimerEvent: {}
+[1.303534] (-) TimerEvent: {}
+[1.404798] (-) TimerEvent: {}
+[1.505277] (-) TimerEvent: {}
+[1.605716] (-) TimerEvent: {}
+[1.706131] (-) TimerEvent: {}
+[1.806624] (-) TimerEvent: {}
+[1.907304] (-) TimerEvent: {}
+[2.007899] (-) TimerEvent: {}
+[2.108468] (-) TimerEvent: {}
+[2.208964] (-) TimerEvent: {}
+[2.309337] (-) TimerEvent: {}
+[2.409740] (-) TimerEvent: {}
+[2.510306] (-) TimerEvent: {}
+[2.610680] (-) TimerEvent: {}
+[2.711049] (-) TimerEvent: {}
+[2.811450] (-) TimerEvent: {}
+[2.911890] (-) TimerEvent: {}
+[3.012269] (-) TimerEvent: {}
+[3.112780] (-) TimerEvent: {}
+[3.213159] (-) TimerEvent: {}
+[3.313551] (-) TimerEvent: {}
+[3.413914] (-) TimerEvent: {}
+[3.514273] (-) TimerEvent: {}
+[3.614666] (-) TimerEvent: {}
+[3.715043] (-) TimerEvent: {}
+[3.815427] (-) TimerEvent: {}
+[3.915813] (-) TimerEvent: {}
+[4.016185] (-) TimerEvent: {}
+[4.116582] (-) TimerEvent: {}
+[4.216942] (-) TimerEvent: {}
+[4.317328] (-) TimerEvent: {}
+[4.417676] (-) TimerEvent: {}
+[4.518170] (-) TimerEvent: {}
+[4.618612] (-) TimerEvent: {}
+[4.719090] (-) TimerEvent: {}
+[4.819670] (-) TimerEvent: {}
+[4.920131] (-) TimerEvent: {}
+[5.020612] (-) TimerEvent: {}
+[5.121100] (-) TimerEvent: {}
+[5.221559] (-) TimerEvent: {}
+[5.322058] (-) TimerEvent: {}
+[5.422648] (-) TimerEvent: {}
+[5.523019] (-) TimerEvent: {}
+[5.623428] (-) TimerEvent: {}
+[5.723836] (-) TimerEvent: {}
+[5.824348] (-) TimerEvent: {}
+[5.924733] (-) TimerEvent: {}
+[6.025133] (-) TimerEvent: {}
+[6.125560] (-) TimerEvent: {}
+[6.225983] (-) TimerEvent: {}
+[6.326511] (-) TimerEvent: {}
+[6.426958] (-) TimerEvent: {}
+[6.527331] (-) TimerEvent: {}
+[6.627690] (-) TimerEvent: {}
+[6.728046] (-) TimerEvent: {}
+[6.828430] (-) TimerEvent: {}
+[6.928791] (-) TimerEvent: {}
+[7.029217] (-) TimerEvent: {}
+[7.129600] (-) TimerEvent: {}
+[7.229971] (-) TimerEvent: {}
+[7.330390] (-) TimerEvent: {}
+[7.430849] (-) TimerEvent: {}
+[7.531315] (-) TimerEvent: {}
+[7.631847] (-) TimerEvent: {}
+[7.732285] (-) TimerEvent: {}
+[7.832806] (-) TimerEvent: {}
+[7.933266] (-) TimerEvent: {}
+[8.033649] (-) TimerEvent: {}
+[8.134115] (-) TimerEvent: {}
+[8.234557] (-) TimerEvent: {}
+[8.334918] (-) TimerEvent: {}
+[8.435303] (-) TimerEvent: {}
+[8.535661] (-) TimerEvent: {}
+[8.636166] (-) TimerEvent: {}
+[8.736643] (-) TimerEvent: {}
+[8.837045] (-) TimerEvent: {}
+[8.937472] (-) TimerEvent: {}
+[9.037967] (-) TimerEvent: {}
+[9.138367] (-) TimerEvent: {}
+[9.238787] (-) TimerEvent: {}
+[9.339134] (-) TimerEvent: {}
+[9.439566] (-) TimerEvent: {}
+[9.540025] (-) TimerEvent: {}
+[9.640735] (-) TimerEvent: {}
+[9.741238] (-) TimerEvent: {}
+[9.841714] (-) TimerEvent: {}
+[9.942306] (-) TimerEvent: {}
+[10.042782] (-) TimerEvent: {}
+[10.143180] (-) TimerEvent: {}
+[10.243609] (-) TimerEvent: {}
+[10.344098] (-) TimerEvent: {}
+[10.444548] (-) TimerEvent: {}
+[10.544918] (-) TimerEvent: {}
+[10.645259] (-) TimerEvent: {}
+[10.745673] (-) TimerEvent: {}
+[10.846054] (-) TimerEvent: {}
+[10.946441] (-) TimerEvent: {}
+[11.046803] (-) TimerEvent: {}
+[11.147156] (-) TimerEvent: {}
+[11.247549] (-) TimerEvent: {}
+[11.347962] (-) TimerEvent: {}
+[11.448269] (-) TimerEvent: {}
+[11.548630] (-) TimerEvent: {}
+[11.649005] (-) TimerEvent: {}
+[11.749376] (-) TimerEvent: {}
+[11.849720] (-) TimerEvent: {}
+[11.950095] (-) TimerEvent: {}
+[12.050689] (-) TimerEvent: {}
+[12.151170] (-) TimerEvent: {}
+[12.251656] (-) TimerEvent: {}
+[12.352292] (-) TimerEvent: {}
+[12.452718] (-) TimerEvent: {}
+[12.553323] (-) TimerEvent: {}
+[12.653924] (-) TimerEvent: {}
+[12.754442] (-) TimerEvent: {}
+[12.854878] (-) TimerEvent: {}
+[12.955428] (-) TimerEvent: {}
+[13.055923] (-) TimerEvent: {}
+[13.156670] (-) TimerEvent: {}
+[13.257251] (-) TimerEvent: {}
+[13.357653] (-) TimerEvent: {}
+[13.458055] (-) TimerEvent: {}
+[13.512803] (my_opencv_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable scan_to_image_node\x1b[0m\n'}
+[13.558183] (-) TimerEvent: {}
+[13.658580] (-) TimerEvent: {}
+[13.758947] (-) TimerEvent: {}
+[13.859303] (-) TimerEvent: {}
+[13.959672] (-) TimerEvent: {}
+[14.060658] (-) TimerEvent: {}
+[14.161058] (-) TimerEvent: {}
+[14.204478] (my_opencv_demo) StdoutLine: {'line': b'[100%] Built target scan_to_image_node\n'}
+[14.223204] (my_opencv_demo) CommandEnded: {'returncode': 0}
+[14.261170] (-) TimerEvent: {}
+[14.288557] (my_opencv_demo) JobProgress: {'identifier': 'my_opencv_demo', 'progress': 'install'}
+[14.306875] (my_opencv_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo'], 'cwd': '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'student'), ('SSH_AGENT_PID', '2062'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/student/ros2_ws/install/turtlesim/lib:/home/student/ros2_ws/install/turtlebot3_msgs/lib:/home/student/ros2_ws/install/robot_localization/lib:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/student/ros2_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('HOME', '/home/student'), ('OLDPWD', '/home/student/ros2_ws/src/my_opencv_demo/src'), ('GAZEBO_MASTER_URI', 'http://localhost:11345'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2174'), ('XRDP_PULSE_SOURCE_SOCKET', 'xrdp_chansrv_audio_in_socket_10'), ('XRDP_PULSE_SINK_SOCKET', 'xrdp_chansrv_audio_out_socket_10'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('PULSE_SCRIPT', '/etc/xrdp/pulse/default.pa'), ('COLCON_PREFIX_PATH', '/home/student/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'student'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/labMGJSX0:@/tmp/.ICE-unix/2151,unix/labMGJSX0:/tmp/.ICE-unix/2151'), ('XDG_MENU_PREFIX', 'gnome-'), ('XRDP_SOCKET_PATH', '/run/xrdp/sockdir'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c1a35fe_6597_49e1_9815_0823651096aa'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':10.0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.91'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '30'), ('AMENT_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/my_opencv_demo:/home/student/ros2_ws/install/labs:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/opt/ros/humble'), ('UID', '1000'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XRDP_SESSION', '1'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11/'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/student/ros2_ws/src/my_opencv_demo/build/my_opencv_demo'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/student/ros2_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/student/ros2_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/robot_localization/local/lib/python3.10/dist-packages:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('SGX_AESM_ADDR', '1'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/student/ros2_ws/install/turtlesim:/home/student/ros2_ws/install/turtlebot3:/home/student/ros2_ws/install/turtlebot3_simulations:/home/student/ros2_ws/install/turtlebot3_bringup:/home/student/ros2_ws/install/turtlebot3_node:/home/student/ros2_ws/install/turtlebot3_navigation2:/home/student/ros2_ws/install/turtlebot3_fake_node:/home/student/ros2_ws/install/turtlebot3_msgs:/home/student/ros2_ws/install/turtlebot3_gazebo:/home/student/ros2_ws/install/turtlebot3_description:/home/student/ros2_ws/install/turtlebot3_cartographer:/home/student/ros2_ws/install/robot_localization:/home/student/ros2_ws/install/my_opencv_demo:/home/student/ros2_ws/install/labs:/home/student/ros2_ws/install/dynamixel_sdk_examples:/home/student/ros2_ws/install/dynamixel_sdk_custom_interfaces:/home/student/ros2_ws/install/dynamixel_sdk:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[14.321961] (my_opencv_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.322311] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/minimal_opencv_ros2_node\n'}
+[14.324292] (my_opencv_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/minimal_opencv_ros2_node" to ""\n'}
+[14.324497] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/image_processor\n'}
+[14.330172] (my_opencv_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/image_processor" to ""\n'}
+[14.330432] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/scan_processor\n'}
+[14.336288] (my_opencv_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/scan_processor" to ""\n'}
+[14.336582] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/scan_to_image_node\n'}
+[14.342615] (my_opencv_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/lib/my_opencv_demo/scan_to_image_node" to ""\n'}
+[14.342943] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/ament_index/resource_index/package_run_dependencies/my_opencv_demo\n'}
+[14.343139] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/ament_index/resource_index/parent_prefix_path/my_opencv_demo\n'}
+[14.343379] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/environment/ament_prefix_path.sh\n'}
+[14.343562] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/environment/ament_prefix_path.dsv\n'}
+[14.343744] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/environment/path.sh\n'}
+[14.343918] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/environment/path.dsv\n'}
+[14.344075] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/local_setup.bash\n'}
+[14.344693] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/local_setup.sh\n'}
+[14.344888] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/local_setup.zsh\n'}
+[14.345040] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/local_setup.dsv\n'}
+[14.345259] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/package.dsv\n'}
+[14.345670] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/ament_index/resource_index/packages/my_opencv_demo\n'}
+[14.345950] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/cmake/my_opencv_demoConfig.cmake\n'}
+[14.346174] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/cmake/my_opencv_demoConfig-version.cmake\n'}
+[14.346448] (my_opencv_demo) StdoutLine: {'line': b'-- Installing: /home/student/ros2_ws/src/my_opencv_demo/install/my_opencv_demo/share/my_opencv_demo/package.xml\n'}
+[14.350854] (my_opencv_demo) CommandEnded: {'returncode': 0}
+[14.361266] (-) TimerEvent: {}
+[14.442541] (my_opencv_demo) JobEnded: {'identifier': 'my_opencv_demo', 'rc': 0}
+[14.443624] (-) EventReactorShutdown: {}

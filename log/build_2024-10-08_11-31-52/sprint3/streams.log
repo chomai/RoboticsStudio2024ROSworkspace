@@ -1,0 +1,9 @@
+[0.042s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3
+[0.170s] [35m[1mConsolidate compiler generated dependencies of target map_overlay_node[0m
+[0.170s] [35m[1mConsolidate compiler generated dependencies of target cylinder_detection_node[0m
+[0.220s] [ 33%] Built target map_overlay_node
+[0.242s] [ 66%] Built target cylinder_detection_node
+[0.253s] gmake[2]: *** No rule to make target '/home/student/ros2_ws/src/sprint3/src/cylinder_adder_node.cpp', needed by 'CMakeFiles/cylinder_adder_node.dir/src/cylinder_adder_node.cpp.o'.  Stop.
+[0.253s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/cylinder_adder_node.dir/all] Error 2
+[0.253s] gmake: *** [Makefile:146: all] Error 2
+[0.258s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3

@@ -1,0 +1,10 @@
+[ 33%] Built target lab1
+[35m[1mConsolidate compiler generated dependencies of target sprint1[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/sprint1.dir/src/sprint1.cpp.o[0m
+[01m[K/home/student/ros2_ws/src/labs/src/sprint1.cpp:[m[K In member function ‘[01m[Kvoid LaserScanProcessor::scanCallback(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/student/ros2_ws/src/labs/src/sprint1.cpp:37:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcan[m[K’
+   37 |         new_scan->angle_increment [01;31m[Kcan[m[K->angle_increment * nth;
+      |                                   [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/sprint1.dir/build.make:76: CMakeFiles/sprint1.dir/src/sprint1.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/sprint1.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,6 @@
+[0.054s] Invoking command in '/home/student/ros2_ws/build/sprint3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8
+[0.271s] [ 50%] Built target map_overlay_node
+[0.297s] [35m[1mConsolidate compiler generated dependencies of target cylinder_detection_node[0m
+[0.349s] [100%] Built target cylinder_detection_node
+[0.357s] gmake: *** [Makefile:147: all] Interrupt
+[0.361s] Invoked command in '/home/student/ros2_ws/build/sprint3' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/student/ros2_ws/install/turtlebot3_teleop:/home/student/ros2_ws/install/turtlebot3_example:/home/student/ros2_ws/install/rtabmap_python:/opt/ros/humble /usr/bin/cmake --build /home/student/ros2_ws/build/sprint3 -- -j8 -l8
