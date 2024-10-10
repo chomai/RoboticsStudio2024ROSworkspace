@@ -39,6 +39,7 @@ private:
      *
      * @param scan The received laser scan message.
      */
+    /*
     void laserCallback(const sensor_msgs::msg::LaserScan::SharedPtr scan)
     {
         float cylinder_radius = 0.15; // 15 cm radius
@@ -93,7 +94,88 @@ private:
                 RCLCPP_WARN(this->get_logger(), "Transform failed: %s", ex.what());
             }
         }
+    }*/
+    
+void laserCallback(const sensor_msgs::msg::LaserScan::SharedPtr scan)
+{
+    float cylinder_radius = 0.15; // 15 cm radius
+    float tolerance = 0.1; // 10 cm tolerance
+    float detection_distance_threshold = 0.3; // 30 cm detection threshold
+    int cylinder_detected = -1;
+    geometry_msgs::msg::Point cylinder_position;
+
+    // Variables to store potential points
+    std::vector<geometry_msgs::msg::Point> points;
+
+    // Analyze laser scan data
+    for (size_t i = 0; i < scan->ranges.size(); ++i)
+    {
+        if (scan->ranges[i] < scan->range_max && scan->ranges[i] > scan->range_min)
+        {
+            float angle = scan->angle_min + i * scan->angle_increment;
+            float x = scan->ranges[i] * cos(angle);
+            float y = scan->ranges[i] * sin(angle);
+
+            geometry_msgs::msg::Point point;
+            point.x = x;
+            point.y = y;
+            point.z = 0.0;
+
+            // Only consider points within the detection distance threshold
+            if (sqrt(x * x + y * y) <= detection_distance_threshold)
+            {
+                points.push_back(point);
+                //RCLCPP_INFO(this->get_logger(), "Collected Point: (%f, %f)", point.x, point.y);
+            }
+        }
     }
+
+    // Check if any points are within the cylinder radius
+    for (const auto& point : points)
+    {
+        float dist_to_center = sqrt(point.x * point.x + point.y * point.y);
+        if (fabs(dist_to_center - cylinder_radius) < tolerance)
+        {
+            cylinder_position = point; // Store position
+            cylinder_detected = 1; // Mark as detected
+            break; // Exit loop on first detection
+        }
+    }
+
+    // If a cylinder is detected, transform and publish the position
+    if (cylinder_detected != -1)
+    {
+        try
+        {
+            geometry_msgs::msg::TransformStamped transform_stamped;
+            transform_stamped = tf_buffer_.lookupTransform("odom", "base_link", tf2::TimePointZero);
+
+            tf2::Transform tf_map_to_base;
+            tf2::fromMsg(transform_stamped.transform, tf_map_to_base);
+
+            tf2::Vector3 local_position(cylinder_position.x, cylinder_position.y, 0);
+            tf2::Vector3 global_position = tf_map_to_base * local_position;
+
+            // Log the global position of the cylinder
+            RCLCPP_INFO(this->get_logger(), "Global position of cylinder: (%f, %f, %f)", global_position.x(), global_position.y(), global_position.z());
+
+            // Mark the cylinder on RViz
+            publishCylinderMarker(global_position.x(), global_position.y(), global_position.z());
+
+            // Draw the cylinder on the map
+            drawCylinderOnMap("/home/student/ros2_ws/sprint3_v1_carto_map.pgm", "/home/student/ros2_ws/sprint3_cylinder_map.pgm", global_position.x(), global_position.y());
+
+        }
+        catch (tf2::TransformException &ex)
+        {
+            RCLCPP_WARN(this->get_logger(), "Transform failed: %s", ex.what());
+        }
+    }
+}
+
+
+
+
     /**
      * @brief Publish a marker for the detected cylinder.
      *
@@ -185,7 +267,7 @@ private:
         int origin_pixel_x = static_cast<int>((origin_x - origin_x) / map_resolution); // This should be 0
         int origin_pixel_y = static_cast<int>((origin_y - origin_y) / map_resolution); // This should also be 0
         // Log the global position of the square
-        RCLCPP_INFO(this->get_logger(), "Square global position: (%f, %f)", origin_x, origin_y);
+        //RCLCPP_INFO(this->get_logger(), "Square global position: (%f, %f)", origin_x, origin_y);
         // Define the size of the square in pixels
         int square_size = 10; // Size of the square in pixels
 
@@ -199,7 +281,7 @@ private:
                     cv::Point(square_top_left_x + square_size, square_top_left_y + square_size), 
                     cv::Scalar(128),
                     -1);
-        RCLCPP_INFO(this->get_logger(), "Square top left: (%d, %d)", square_top_left_x , square_top_left_y);
+        //RCLCPP_INFO(this->get_logger(), "Square top left: (%d, %d)", square_top_left_x , square_top_left_y);
 
         // Save the modified map
         cv::imwrite(new_map_path, map_image);
